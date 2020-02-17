@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ENIGMA.dir/main.c.o CMakeFiles/ENIGMA.dir/enigma.c.o CMakeFiles/ENIGMA.dir/ihm.c.o  -o ENIGMA 
+/usr/bin/cc   -rdynamic CMakeFiles/ENIGMA.dir/main.c.o CMakeFiles/ENIGMA.dir/enigma.c.o CMakeFiles/ENIGMA.dir/ihm.c.o  -o ENIGMA 

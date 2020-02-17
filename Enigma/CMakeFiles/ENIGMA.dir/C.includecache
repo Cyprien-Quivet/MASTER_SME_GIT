@@ -6,21 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/enigma.h
-stdlib.h
--
-stdio.h
--
-
-/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/ihm.h
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/enigma.c
 enigma.h
-/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/enigma.h
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/enigma.h
+
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/enigma.h
 stdlib.h
 -
 stdio.h
 -
 
-/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/main.c
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/ihm.c
+ihm.h
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/ihm.h
+
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/ihm.h
+enigma.h
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/enigma.h
+stdlib.h
+-
+stdio.h
+-
+
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/main.c
 stdlib.h
 -
 stdio.h
@@ -28,7 +36,7 @@ stdio.h
 math.h
 -
 enigma.h
-/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/enigma.h
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/enigma.h
 ihm.h
-/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/ihm.h
+/home/cyprienquivet/Projets_GIT/MASTER_SME_GIT/Enigma/ihm.h
 
