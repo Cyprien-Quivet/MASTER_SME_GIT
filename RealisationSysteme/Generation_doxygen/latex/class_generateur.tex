@@ -1,0 +1,241 @@
+\hypertarget{class_generateur}{}\doxysection{Generateur Class Reference}
+\label{class_generateur}\index{Generateur@{Generateur}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_generateur_a0e2a6041bd39ec47407d3ffad34d6560}{Generateur}} (\mbox{\hyperlink{class_lecteur_carte}{Lecteur\+Carte}} \&lecteur, \mbox{\hyperlink{class_voyants}{Voyants}} \&voyants, \mbox{\hyperlink{class_prise}{Prise}} \&prise, \mbox{\hyperlink{class_boutons}{Boutons}} \&boutons)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generateur_afa56740d4f47b6a91013efaa145db715}{generateursave\+\_\+initialiser}} ()
+\begin{DoxyCompactList}\small\item\em Initialisation du Générateur Save. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generateur_ab361638a6cf91874ea2ec23c230b333a}{charger\+\_\+batterie}} (int etat\+\_\+initial)
+\begin{DoxyCompactList}\small\item\em Charger batterie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generateur_ad5eb68442d00f00534d68bdd55324180}{generer\+\_\+\+P\+WM}} (pwm val)
+\begin{DoxyCompactList}\small\item\em Générer P\+WM. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_generateur_ad57b9a84075d394f0fee8654eda805d9}{tension}} ()
+\begin{DoxyCompactList}\small\item\em Tension. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generateur_a6e505a76cf164e53b263746e639158f0}{charger}} ()
+\begin{DoxyCompactList}\small\item\em Charger. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generateur_acaf45c8a1d0eed27b775c25b0f87277f}{ouvrir\+\_\+\+AC}} ()
+\begin{DoxyCompactList}\small\item\em Charger. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generateur_aabfc1e79a46415545dea92c7087a6f7b}{fermer\+\_\+\+AC}} ()
+\begin{DoxyCompactList}\small\item\em fermer \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_generateur_ab171244b5195c4dd64932db41a701302}{deconnecter}} ()
+\begin{DoxyCompactList}\small\item\em Déconnecter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+entrees $\ast$ \mbox{\hyperlink{class_generateur_a6abbcd254de017dcd1415afaec6529c0}{io}}
+\item 
+\mbox{\Hypertarget{class_generateur_ae65ad0b15356b8650a92f69c53429e2b}\label{class_generateur_ae65ad0b15356b8650a92f69c53429e2b}} 
+int {\bfseries shmid}
+\item 
+int \mbox{\hyperlink{class_generateur_a4438a7a9edc9c70fe3f740b8b285e083}{depart\+\_\+timer}}
+\item 
+unsigned short int \mbox{\hyperlink{class_generateur_a99527755322a3330cf52a3474f7915f1}{num\+\_\+client}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_generateur_a0e2a6041bd39ec47407d3ffad34d6560}\label{class_generateur_a0e2a6041bd39ec47407d3ffad34d6560}} 
+\index{Generateur@{Generateur}!Generateur@{Generateur}}
+\index{Generateur@{Generateur}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{Generateur()}{Generateur()}}
+{\footnotesize\ttfamily Generateur\+::\+Generateur (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_lecteur_carte}{Lecteur\+Carte}} \&}]{lecteur,  }\item[{\mbox{\hyperlink{class_voyants}{Voyants}} \&}]{voyants,  }\item[{\mbox{\hyperlink{class_prise}{Prise}} \&}]{prise,  }\item[{\mbox{\hyperlink{class_boutons}{Boutons}} \&}]{boutons }\end{DoxyParamCaption})}
+
+
+
+Constructeur. 
+
+Constructeur de la classe \mbox{\hyperlink{class_generateur}{Generateur}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em constructeur} & \+: lecteur (objet de type \mbox{\hyperlink{class_lecteur_carte}{Lecteur\+Carte}}), voyants (objet de type \mbox{\hyperlink{class_voyants}{Voyants}}), prise (objet de type \mbox{\hyperlink{class_prise}{Prise}}) et boutons (objet de type \mbox{\hyperlink{class_boutons}{Boutons}}) \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_generateur_a6e505a76cf164e53b263746e639158f0}\label{class_generateur_a6e505a76cf164e53b263746e639158f0}} 
+\index{Generateur@{Generateur}!charger@{charger}}
+\index{charger@{charger}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{charger()}{charger()}}
+{\footnotesize\ttfamily void Generateur\+::charger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Charger. 
+
+Methode qui permet de retourner la valeur de la tension 
+\begin{DoxyParams}{Parameters}
+{\em sans} & paramètre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retourne la valeur de la tension 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_generateur_ab361638a6cf91874ea2ec23c230b333a}\label{class_generateur_ab361638a6cf91874ea2ec23c230b333a}} 
+\index{Generateur@{Generateur}!charger\_batterie@{charger\_batterie}}
+\index{charger\_batterie@{charger\_batterie}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{charger\_batterie()}{charger\_batterie()}}
+{\footnotesize\ttfamily void Generateur\+::charger\+\_\+batterie (\begin{DoxyParamCaption}\item[{int}]{etat\+\_\+initial }\end{DoxyParamCaption})}
+
+
+
+Charger batterie. 
+
+Méthode contenant une machine à états pour permettre le rechargement de la batterie
+
+
+\begin{DoxyParams}{Parameters}
+{\em etat\+\_\+initial} & \+: entier contenant l\textquotesingle{}état initial de la machine à état \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_generateur_ab171244b5195c4dd64932db41a701302}\label{class_generateur_ab171244b5195c4dd64932db41a701302}} 
+\index{Generateur@{Generateur}!deconnecter@{deconnecter}}
+\index{deconnecter@{deconnecter}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{deconnecter()}{deconnecter()}}
+{\footnotesize\ttfamily void Generateur\+::deconnecter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Déconnecter. 
+
+Methode qui permet de deconnecter la voiture de la borne de recharge 
+\begin{DoxyParams}{Parameters}
+{\em sans} & paramètre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sans paramètre 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_generateur_aabfc1e79a46415545dea92c7087a6f7b}\label{class_generateur_aabfc1e79a46415545dea92c7087a6f7b}} 
+\index{Generateur@{Generateur}!fermer\_AC@{fermer\_AC}}
+\index{fermer\_AC@{fermer\_AC}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{fermer\_AC()}{fermer\_AC()}}
+{\footnotesize\ttfamily void Generateur\+::fermer\+\_\+\+AC (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+fermer 
+
+Methode qui permet fermer le contacteur AC 
+\begin{DoxyParams}{Parameters}
+{\em sans} & paramètre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sans paramètre 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_generateur_afa56740d4f47b6a91013efaa145db715}\label{class_generateur_afa56740d4f47b6a91013efaa145db715}} 
+\index{Generateur@{Generateur}!generateursave\_initialiser@{generateursave\_initialiser}}
+\index{generateursave\_initialiser@{generateursave\_initialiser}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{generateursave\_initialiser()}{generateursave\_initialiser()}}
+{\footnotesize\ttfamily void Generateur\+::generateursave\+\_\+initialiser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialisation du Générateur Save. 
+
+Methode qui permet d\textquotesingle{}initialiser le générateur Save
+
+
+\begin{DoxyParams}{Parameters}
+{\em sans} & paramètre \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_generateur_ad5eb68442d00f00534d68bdd55324180}\label{class_generateur_ad5eb68442d00f00534d68bdd55324180}} 
+\index{Generateur@{Generateur}!generer\_PWM@{generer\_PWM}}
+\index{generer\_PWM@{generer\_PWM}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{generer\_PWM()}{generer\_PWM()}}
+{\footnotesize\ttfamily void Generateur\+::generer\+\_\+\+P\+WM (\begin{DoxyParamCaption}\item[{pwm}]{val }\end{DoxyParamCaption})}
+
+
+
+Générer P\+WM. 
+
+Méthode permettant de générer un signal P\+WM.
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & \+: variable de type pwm \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_generateur_acaf45c8a1d0eed27b775c25b0f87277f}\label{class_generateur_acaf45c8a1d0eed27b775c25b0f87277f}} 
+\index{Generateur@{Generateur}!ouvrir\_AC@{ouvrir\_AC}}
+\index{ouvrir\_AC@{ouvrir\_AC}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{ouvrir\_AC()}{ouvrir\_AC()}}
+{\footnotesize\ttfamily void Generateur\+::ouvrir\+\_\+\+AC (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Charger. 
+
+Methode qui permet de retourner la valeur de la tension 
+\begin{DoxyParams}{Parameters}
+{\em sans} & paramètre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retourne la valeur de la tension 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_generateur_ad57b9a84075d394f0fee8654eda805d9}\label{class_generateur_ad57b9a84075d394f0fee8654eda805d9}} 
+\index{Generateur@{Generateur}!tension@{tension}}
+\index{tension@{tension}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{tension()}{tension()}}
+{\footnotesize\ttfamily float Generateur\+::tension (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Tension. 
+
+Methode qui permet de retourner la valeur de la tension 
+\begin{DoxyParams}{Parameters}
+{\em sans} & paramètre \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retourne la valeur de la tension 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_generateur_a4438a7a9edc9c70fe3f740b8b285e083}\label{class_generateur_a4438a7a9edc9c70fe3f740b8b285e083}} 
+\index{Generateur@{Generateur}!depart\_timer@{depart\_timer}}
+\index{depart\_timer@{depart\_timer}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{depart\_timer}{depart\_timer}}
+{\footnotesize\ttfamily int Generateur\+::depart\+\_\+timer}
+
+
+\begin{DoxyParams}{Parameters}
+{\em depart\+\_\+timer} & \+: Entier permettant utilise pour lancer le timer. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_generateur_a6abbcd254de017dcd1415afaec6529c0}\label{class_generateur_a6abbcd254de017dcd1415afaec6529c0}} 
+\index{Generateur@{Generateur}!io@{io}}
+\index{io@{io}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{io}{io}}
+{\footnotesize\ttfamily entrees$\ast$ Generateur\+::io}
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$io} & \+: Pointeur de type entrees \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_generateur_a99527755322a3330cf52a3474f7915f1}\label{class_generateur_a99527755322a3330cf52a3474f7915f1}} 
+\index{Generateur@{Generateur}!num\_client@{num\_client}}
+\index{num\_client@{num\_client}!Generateur@{Generateur}}
+\doxysubsubsection{\texorpdfstring{num\_client}{num\_client}}
+{\footnotesize\ttfamily unsigned short int Generateur\+::num\+\_\+client}
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+\_\+client} & \+: Entier non signé contenant le numéro du client. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/cyprien quivet/\+Desktop/\+G\+I\+T/\+M\+A\+S\+T\+E\+R\+\_\+\+S\+M\+E\+\_\+\+G\+I\+T/\+Realisation\+Systeme/projet\+\_\+uml\+\_\+c++/generateur\+\_\+save.\+h\item 
+C\+:/\+Users/cyprien quivet/\+Desktop/\+G\+I\+T/\+M\+A\+S\+T\+E\+R\+\_\+\+S\+M\+E\+\_\+\+G\+I\+T/\+Realisation\+Systeme/projet\+\_\+uml\+\_\+c++/generateur\+\_\+save.\+cpp\end{DoxyCompactItemize}
