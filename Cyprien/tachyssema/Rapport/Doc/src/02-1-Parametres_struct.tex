@@ -1,0 +1,7 @@
+\subsection{Solution envisageable }
+Les messages MAVLINK sont définis dans des fichiers .XML nommés dialectes. Le dialecte "Common.xml" contient la définition de tous les principaux messages du protocole MAVLINK. Cependant pour des applications spécifiques, d'autres dialectes ont été crées. 
+C'est par exemple le cas du dialecte "ArdupilotMega.xml" crée par la suite logiciel de pilotage automatique de véhicule sans pilote Ardupilot.\newline
+
+Une fois les messages personnalisés ajoutés dans les dialectes, il faut pouvoir les générer dans un langage de programmation pour les implémenter. Pour ce faire il existe l'outil MAVGEN qui permet de générer en langage C, C++, Java et Python les dialectes crées.\newline
+
+Lorsque les dialectes sont générés, il faut inclure les fichiers sources au projet. Il est alors possible d'échanger les nouveau messages via le protocole MAVLINK. 
