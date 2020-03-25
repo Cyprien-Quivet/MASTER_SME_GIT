@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/enigma.h
+stdlib.h
+-
+stdio.h
+-
+
+/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/ihm.h
+enigma.h
+/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/enigma.h
+stdlib.h
+-
+stdio.h
+-
+
+/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/main.c
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+enigma.h
+/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/enigma.h
+ihm.h
+/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/Enigma/ihm.h
+
