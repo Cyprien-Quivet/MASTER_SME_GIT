@@ -52,7 +52,6 @@ Voici ci-dessous les principales fonctions qui sont réalisées par l'IHM :
 \newline
 \begin{itemize}
 	\item L'utilisateur peut lire et écrire la liste des pixels déffectueux dans un fichier .txt qui est sauvegardé sur le disque dur de l'ordinateur (ou est executée l'IHM). 
-	\item La matrice
 	\item L'IHM peut intérragir avec la caméra par le biais d'une communication série. Elle réalise des opérations de lectures et d'écritures dans une table FPGA ainsi que dans une mémoire EEPROM qui contient les coordonnées des pixels défectueux. 
 	\item Une fois que les coordonnés des pixels morts sont chargés de la caméra vers l'IHM ou du fichier .txt vers l'IHM, cette dernière les affiches sous la forme d'une liste comportant deux colonnes (une pour la ligne et une pour la colonne du pixel mort). 
 	\item L'utilisateur peut effectuer différentes actions sur la liste des mauvais pixels. Il peut notament ajouter, supprimer ou remplacer des pixels deffectueux. A chaque modification, la liste est actualisée et transmise au FPGA.
@@ -83,19 +82,51 @@ Ensuite j'ai pu implémenté le code en langage C ce qui permet d'établir un li
 
 
 
-\subsection{Projet WindFloat Atlantic : Traitement des données d'un capteur}
+\subsection{Projet WindFloat Atlantic : Traitement des données d'un équipement embarqué}
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[scale=0.45]{img/IHM.png}
-    \caption{Apperçu de l'IHM}
+    \includegraphics[scale=0.15]{img/WindFloatProject.jpeg}
+    \caption{Plateforme situé au Portugal}
     \label{fig:CameraCmdsettings}
 \end{figure}
 
 \subsubsection{Contexte}
-
 \subsubsubsection{Le projet WindFloat Atlantic}
 
+Tachyssema Developpement participe au projet WindFloat Atlantique mené par EDP Renewables, Engie, Repsol et Principle Power Inc. Ce projet consite à la réalisation de plateformes exploitants l'énergie éolien offshore. 
+
+\subsubsubsection{Traitement des données utile pour l'asservissement d'une plateforme}
+Informations utiles: Le Xsens MTi-10-series est un module qui regroupe un ensemble de capteurs permettant d'obtenir des informations d'une grande précision sur l'orientation, l'inclinaison, les accélérations sur 3 axes ( x,y,z) ainsi que les positions GPS. 
+\newline
+
+Les plateformes sont équipés d'un asservissement qui leurs permet de rester stables malgrès des conditions métérologiques pouvant être difficiles comme dans le cas d'une forte houle ou de vents trop importants. Les plateformes sont équipés de trois flotteurs qui assurent leurs bon équilibre. Des pompes à eau sont présentes dans chaque flotteur. L'asservissement agit sur la commande de ces pompes à eau pour maintenir les plateformes en équilibres. 
+La positions GPS doivent aussi être connu en temps réel pour vérifier que les plateformes ne dérives pas. 
+Toutes ces données proviennent de modules Xsens installées directement sur les plateformes qui transmettent les informations par communication série à un automate qui est lui même relié au sol par via le protocole de communication MODBUS.  (voir figure ci-dessous)
+\newpage
 
 
-Pour ce faire la commande MAV\_CMD\_VIDEO\_STOP\_STREAMING est transmise à la caméra et la diffusion vidéo est stoppée si l'acquittement émit par la caméra correspond à MAV\_RESULT\_ACCEPTED.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.45]{img/schKOWL.png}
+    \caption{Illustration de la communication entre équipements }
+    \label{fig:CameraCmdsettings}
+\end{figure}
+
+\subsubsection{Travail effectué}
+
+Ma mission sur ce projet consistait à : 
+\newline
+\begin{itemize}
+	\item Configurer le module Xsens pour que les données répondants au cahier des charges soient transmises à la bonne fréquence ( qui était initialement de 50 Hz). Les données utiles étaient donc le lacet (yaw), le roulis (roll), le tangage (pitch), la lattitude, la langitude ainsi que les accélérations X,Y et Z. 
+	\item Etudier la trame généré par le module Xsens, le fonctionnement de la réception série de l'automate et a transmission des données en provenance de l'automate via le protocole MODBUS. 
+	\item Créer un executable en C\# (s'exécutant sur un équipement au sol) permettant de lire les données disponibles sur l'automate et de les interpréter pour reconstituer la trame du module Xsens et enfin d'extraire les informations souhaitées. 
+
+\end{itemize}
+
+\subsection{Etude du protocole MAVLINK }
+
+\subsubsection{Contexte}
+
+Le protocole MAVLINK est un ...
+
