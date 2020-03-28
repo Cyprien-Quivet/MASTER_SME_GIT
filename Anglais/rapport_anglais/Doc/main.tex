@@ -1,0 +1,157 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[margin=3cm, paperwidth=21cm, paperheight=29.7cm]{geometry}
+\usepackage{graphicx}
+\usepackage{SIunits}
+\usepackage{tabto}
+\usepackage{eurosym}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage{url}
+\usepackage{listings}
+\usepackage[footnote]{acronym}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{todonotes}
+
+\usepackage{fancyhdr}
+\usepackage{caption}
+
+\usepackage{xcolor}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+\definecolor{typedef}{rgb}{0.227, 0.49, 0.49}
+\definecolor{violet}{rgb}{0.255, 0.2588, 0.5333}
+\lstdefinestyle{C_Style}{
+    language=C,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{bluekeywords},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    emph={%  
+    __mavlink_custom_struct_t, uint8_t, uint16_t, uint32_t, uint64_t, mavlink_custom_struct_t%
+    },emphstyle={\color{typedef}}%
+}
+
+\lstdefinestyle{XML_Style}{
+  language=XML,
+  backgroundcolor=\color{backcolour},   
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{bluekeywords},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2,
+  morekeywords={mavlink, message, enums, messages, wip, field, description, dialect, include},
+  emph={  
+    type, id, name, enum
+    },emphstyle={\color{violet}}
+}
+
+\lstset{style=C_Style}
+\pagestyle{fancy}
+\lhead{Tachyssema} % controls the left corner of the header
+\chead{} % controls the center of the header
+\rhead{V2004} % controls the right corner of the header
+\lfoot{} % controls the left corner of the footer
+\cfoot{Page~\thepage} % controls the center of the footer
+\rfoot{} % controls the right corner of the footer
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\titleclass{\subsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\renewcommand\theparagraph{\thesubsubsubsection.\arabic{paragraph}} % optional; useful if paragraphs are to be numbered
+
+
+\titleformat{\subsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\makeatletter
+
+\titleclass{\subsubsubsubsection}{straight}[\subsection]
+
+\newcounter{subsubsubsubsection}[subsubsubsection]
+\renewcommand\thesubsubsubsubsection{\thesubsubsubsection.\arabic{subsubsubsubsection}}
+
+\titleformat{\subsubsubsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsubsection}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\makeatletter
+
+\renewcommand\paragraph{\@startsection{paragraph}{6}{\z@}%
+  {3.25ex \@plus1ex \@minus.2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{7}{\parindent}%
+  {3.25ex \@plus1ex \@minus .2ex}%
+  {-1em}%
+  {\normalfont\normalsize\bfseries}}
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@subsubsubsubsection{5}
+\def\toclevel@paragraph{6}
+\def\toclevel@paragraph{7}
+\def\l@subsubsubsection{\@dottedtocline{4}{7em}{4em}}
+\def\l@subsubsubsubsection{\@dottedtocline{5}{10em}{5em}}
+\def\l@paragraph{\@dottedtocline{6}{13em}{6em}}
+\def\l@subparagraph{\@dottedtocline{7}{17em}{7em}}
+\makeatother
+
+\setcounter{secnumdepth}{5} % Profondeur des nombres des titres
+\setcounter{tocdepth}{3}
+
+\renewcommand{\contentsname}{Table des matières}
+\begin{document}
+\thispagestyle{plain}% Removes the header from the first page. Change plain to empty to remove the numbering entirely.
+
+\include{src/00-Page_de_garde}
+\newpage
+\setcounter{page}{2}
+
+\renewcommand{\thepage}{\arabic{page}}
+
+\tableofcontents
+\newpage
+
+\newpage
+
+\include{src/02-ProjetM2}
+
+
+\clearpage
+
+\end{document}
