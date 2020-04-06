@@ -1,0 +1,12 @@
+{
+
+"provider": "https://mainnet.infura.io/v3/ab546e0826094d40acebed8ad48ab339",
+"blockchain": "ETC",
+"token": "0xbfb7CB50a1db1713DC526FDce50F9Df1A884ECf4",
+"fundMinimum": "1",
+"tokenLimit": "30",
+"spread": "0.0002",
+"dustCutoff": "0.001",
+"bandSize": "2"
+
+}
