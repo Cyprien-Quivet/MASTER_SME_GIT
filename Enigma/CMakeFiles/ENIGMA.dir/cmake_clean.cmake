@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ENIGMA.dir/main.c.o"
   "CMakeFiles/ENIGMA.dir/enigma.c.o"
   "CMakeFiles/ENIGMA.dir/ihm.c.o"
-  "CMakeFiles/ENIGMA.dir/main.c.o"
-  "ENIGMA"
   "ENIGMA.pdb"
+  "ENIGMA"
 )
 
 # Per-language clean rules from dependency scanning.
