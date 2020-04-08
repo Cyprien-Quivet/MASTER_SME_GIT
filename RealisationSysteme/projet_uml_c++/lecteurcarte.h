@@ -1,5 +1,6 @@
 #ifndef LECTEURCARTE_H
 #define LECTEURCARTE_H
+#include <iostream>
 #include <lcarte.h>
 #include <unistd.h>
 #include <donnees_borne.h>
@@ -10,7 +11,7 @@
 #include "generateur_save.h"
 #include "prise.h"
 #include "lecteurcarte.h"
-#include <iostream>
+
 
 //class Generateur;
 
