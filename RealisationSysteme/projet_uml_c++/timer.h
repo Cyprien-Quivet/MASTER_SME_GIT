@@ -1,8 +1,8 @@
 #ifndef TIMER_H
 #define TIMER_H
 #include <iostream>
-#include <donnees_borne.h>
-#include <memoire_borne.h>
+#include "donnees_borne.h"
+#include "memoire_borne.h"
 #include "lecteurcarte.h"
 
 class Timer

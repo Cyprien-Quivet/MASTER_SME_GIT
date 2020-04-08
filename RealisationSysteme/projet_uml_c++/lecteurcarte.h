@@ -3,8 +3,8 @@
 #include <iostream>
 #include <lcarte.h>
 #include <unistd.h>
-#include <donnees_borne.h>
-#include <memoire_borne.h>
+#include "donnees_borne.h"
+#include "memoire_borne.h"
 #include "base_donnee.h"
 #include "voyants.h"
 #include "boutons.h"
