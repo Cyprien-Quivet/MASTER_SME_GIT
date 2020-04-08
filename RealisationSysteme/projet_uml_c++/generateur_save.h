@@ -2,7 +2,7 @@
 #ifndef GENERATEUR_SAVE
 #define GENERATEUR_SAVE
 #include <iostream>
-#include "memoire_borne.h"
+//#include "memoire_borne.h"
 #include "prise.h"
 #include "voyants.h"
 #include "lecteurcarte.h"
