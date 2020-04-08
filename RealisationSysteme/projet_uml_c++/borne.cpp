@@ -22,7 +22,7 @@ int main()
 
     LecteurCarte lecteurcarte(boutons ,voyants ,base ,prise);
     Generateur gen (lecteurcarte ,voyants,prise,boutons );
-    BaseDonnee base;
+   
 	
     lecteurcarte.connect_gene(&gen);
     using namespace std;
