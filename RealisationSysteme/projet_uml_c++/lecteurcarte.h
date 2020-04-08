@@ -13,7 +13,7 @@
 #include "lecteurcarte.h"
 
 
-//class Generateur;
+class Generateur;
 
 
 
