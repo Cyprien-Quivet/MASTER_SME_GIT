@@ -1,4 +1,4 @@
-#include <iostream>
+// #include <iostream>
 #include "memoire_borne.h"
 #include "donnees_borne.h"
 #include "lecteurcarte.h"
@@ -16,7 +16,7 @@ int main()
 {
     Prise prise;
     Boutons boutons;
-    Voyants voyants
+    Voyants voyants;
     Timer timer;
     LecteurCarte lecteurcarte(boutons ,voyants ,base ,prise);
     Generateur gen (lecteurcarte ,voyants,prise,boutons );
