@@ -1,7 +1,6 @@
-
 #include "generateur_save.h"
 
-Generateur::Generateur(LecteurCarte &lecteur ,Voyants &voyants,Prise &prise,Boutons &boutons ):lc(lecteur),voyant(voyants), prise(prise), bouton(boutons)
+Generateur::Generateur(LecteurCarte &lecteur ,Voyants &voyants,Prise &prise,Boutons &boutons ):lc(lecteur),voyants(voyants), prise(prise), boutons(boutons)
 {
 	io = acces_memoire(&shmid);
 	if(io == NULL) printf("erreur de memoire \n ");
