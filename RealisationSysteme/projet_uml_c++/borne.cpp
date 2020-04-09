@@ -27,7 +27,7 @@ int main()
        // lecteurcarte.lecteurcarte_lire_carte()
 
         if(mode == 1){
-            lecteurcarte.lecteurcarte_lire_carte()
+            lecteurcarte.lecteurcarte_lire_carte();
 	    }
 
 	    if(mode == 2){
