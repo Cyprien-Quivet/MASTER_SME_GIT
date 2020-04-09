@@ -26,10 +26,10 @@ void Prise::attente_pdebranche()
 {
     while((io->gene_u == 9) )
 	{
-	std.cout << "debranchez la prise" << std.endl;
+	std::cout << "debranchez la prise" << std::endl;
 
 	}
-    std.cout << "prise debranchee" << std.endl;
+    std::cout << "prise debranchee" << std::endl;
 	
 	//generer_PWM(STOP);    A REGLER
 	verouiller_trappe();
