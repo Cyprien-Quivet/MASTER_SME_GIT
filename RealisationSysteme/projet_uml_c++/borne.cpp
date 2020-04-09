@@ -24,7 +24,7 @@ int main()
     {
         std::cout << "Select Mode: \n 1) Mode normal  \n 2) Mode maintenance\n" << std::endl;
         std::cin >> mode;
-        lecteurcarte.lecteurcarte_lire_carte();
+       // lecteurcarte.lecteurcarte_lire_carte();
 
         if(mode == 1){
             lecteurcarte.lecteurcarte_lire_carte();
