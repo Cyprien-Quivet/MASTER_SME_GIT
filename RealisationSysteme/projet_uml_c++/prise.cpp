@@ -2,9 +2,9 @@
 
 Prise::Prise()
 {
-    entrees *io;
-    int shmid;
-    int depart_timer;
+    //entrees *io;
+    //int shmid;
+   // int depart_timer;
 }
 
 void Prise::deverouiller_trappe()

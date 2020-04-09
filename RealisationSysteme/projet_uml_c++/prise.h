@@ -17,6 +17,10 @@ class Prise
 
 
  	public : 
+
+        entrees *io;
+        int depart_timer;
+	int shmid;
 /*!
 * \brief Constructeur
 *
