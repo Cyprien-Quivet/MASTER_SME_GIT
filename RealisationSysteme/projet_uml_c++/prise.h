@@ -49,7 +49,7 @@ class Prise
 * Methode qui permet de ?????
 * \param sans paramètre
 */
-        void set_prise();
+        void set_prise(led val);
 /*!
 * \brief Attente Prise débranchée 
 *

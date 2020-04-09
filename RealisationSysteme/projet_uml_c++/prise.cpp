@@ -17,9 +17,9 @@ void Prise::verouiller_trappe()
     io->led_trappe=OFF;
 }
 
-void Prise::set_prise()
+void Prise::set_prise(led val)
 {
-    io->led_prise=val ;
+    io->led_prise= val ;
 }
 
 void Prise::attente_pdebranche()
