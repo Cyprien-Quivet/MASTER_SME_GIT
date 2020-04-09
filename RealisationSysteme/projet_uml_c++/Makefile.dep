@@ -1,15 +1,2 @@
-lecteurcarte.o: lecteurcarte.cpp lecteurcarte.h base_donnee.h voyants.h \
- boutons.h timer.h generateur_save.h prise.h
-borne.o: borne.cpp lecteurcarte.h base_donnee.h voyants.h boutons.h \
- timer.h generateur_save.h prise.h
-boutons.o: boutons.cpp boutons.h timer.h lecteurcarte.h base_donnee.h \
- voyants.h generateur_save.h prise.h
-voyants.o: voyants.cpp voyants.h boutons.h timer.h lecteurcarte.h \
- base_donnee.h generateur_save.h prise.h
-base_donnee.o: base_donnee.cpp base_donnee.h
-timer.o: timer.cpp timer.h lecteurcarte.h base_donnee.h voyants.h \
- boutons.h generateur_save.h prise.h
-generateur_save.o: generateur_save.cpp generateur_save.h prise.h \
- voyants.h boutons.h timer.h lecteurcarte.h base_donnee.h
-prise.o: prise.cpp prise.h voyants.h boutons.h timer.h lecteurcarte.h \
- base_donnee.h generateur_save.h
+lecteurcarte.o: lecteurcarte.cpp lecteurcarte.h
+borne.o: borne.cpp lecteurcarte.h
