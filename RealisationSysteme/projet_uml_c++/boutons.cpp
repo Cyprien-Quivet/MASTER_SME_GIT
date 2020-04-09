@@ -13,7 +13,11 @@ int Boutons::charge(){
 	timer.raz();
 	
 	do{
-		if(io->bouton_charge == 1)
+		/*if(io->bouton_charge == 1)
+		{
+			state = 1;
+		}*/
+		if( 1)
 		{
 			state = 1;
 		}
