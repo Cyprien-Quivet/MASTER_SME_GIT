@@ -10,7 +10,6 @@
 #include "boutons.h"
 #include "generateur_save.h"
 #include "prise.h"
-#include "lecteurcarte.h"
 
 
 class Generateur;

@@ -3,7 +3,6 @@
 #include <iostream>
 #include "donnees_borne.h"
 #include "memoire_borne.h"
-#include "lecteurcarte.h"
 
 class Timer
 {

@@ -3,10 +3,7 @@
 #include <iostream>
 #include "donnees_borne.h"
 #include "memoire_borne.h"
-#include "prise.h"
-#include "voyants.h"
-#include "boutons.h"
-#include "lecteurcarte.h"
+
 
 
 /*!
@@ -17,6 +14,7 @@
 
 class Prise
 {
+
 
  	public : 
 /*!

@@ -4,7 +4,6 @@
 #include "donnees_borne.h
 #include "memoire_borne.h"
 #include "timer.h"
-#include "lecteurcarte.h"
 
 /*!
 * \file boutons.h

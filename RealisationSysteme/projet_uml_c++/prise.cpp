@@ -31,9 +31,9 @@ void Prise::attente_pdebranche()
 	}
     std.cout << "prise debranchee" << std.endl;
 	
-	generer_PWM(STOP);
+	//generer_PWM(STOP);    A REGLER
 	verouiller_trappe();
 	set_prise(OFF);
-	set_dispo(VERT);
-	set_charge(OFF);
+//	set_dispo(VERT);     A REGLER
+	//set_charge(OFF);   A REGLER
 }
