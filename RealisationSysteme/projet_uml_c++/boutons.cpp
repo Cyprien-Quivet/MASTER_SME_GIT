@@ -9,7 +9,7 @@ Boutons::Boutons(){
 int Boutons::charge(){
 		
 
-	int state;
+	int state= 0;
 	timer.raz();
 	
 	do{
