@@ -18,7 +18,7 @@ while(!fin)
 {
 	switch(etat_present)
 	{
-		case 1:	voyant.set_charge(ROUGE);
+		case 1:	voyants.set_charge(ROUGE);
 			prise.deverouiller_trappe();
 			Generateur::generer_PWM(DC);
 			std::cout << "# Case 1" << std::endl;
