@@ -44,3 +44,9 @@ int main()
             }
             if(mode == 3)
             {
+                base.afficher_liste_client();
+            }
+	    }
+    }
+
+}
