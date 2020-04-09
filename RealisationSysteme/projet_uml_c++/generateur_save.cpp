@@ -50,7 +50,7 @@ while(!fin)
 		break;
 
 		case 5: Generateur::ouvrir_AC();
-			voyant.set_charge(VERT);
+			voyants.set_charge(VERT);
 			Generateur::generer_PWM(DC);
 			fin =1;
 			io->bouton_stop = 0;
