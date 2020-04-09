@@ -79,7 +79,7 @@ void BaseDonnee::afficher_liste_client()
 			std::cout <<"Le client n° ";
 			std::cout <<i;
 			std::cout <<"est";
-			std::cout <<base_donnes[i];
+			std::cout <<base_donnes[i] << std::endl;
 			
 		}
 	}
