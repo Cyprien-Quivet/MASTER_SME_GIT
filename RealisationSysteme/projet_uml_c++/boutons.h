@@ -1,8 +1,8 @@
 #ifndef BOUTONS_H
 #define BOUTONS_H
 #include <iostream>
-//#include "donnees_borne.h
-//#include "memoire_borne.h"
+#include "donnees_borne.h
+#include "memoire_borne.h"
 #include "timer.h"
 #include "lecteurcarte.h"
 

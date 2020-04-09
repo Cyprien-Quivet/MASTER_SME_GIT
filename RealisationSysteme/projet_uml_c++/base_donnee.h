@@ -1,8 +1,8 @@
 #ifndef BASEDONNEE_H
 #define BASEDONNEE_H
 #include <iostream>
-#include "donnees_borne.h"
-#include "memoire_borne.h"
+//#include "donnees_borne.h"
+//#include "memoire_borne.h"
 
 /*!
 * \file base_donnee.h
