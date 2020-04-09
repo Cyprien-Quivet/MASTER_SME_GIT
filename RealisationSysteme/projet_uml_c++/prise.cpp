@@ -2,6 +2,8 @@
 
 Prise::Prise()
 {
+	io = acces_memoire(&shmid);
+	if(io == NULL) printf("erreur de memoire \n ");
     //entrees *io;
     //int shmid;
    // int depart_timer;

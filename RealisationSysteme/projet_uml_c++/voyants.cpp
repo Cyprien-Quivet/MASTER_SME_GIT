@@ -2,13 +2,14 @@
 
 
 Voyants::Voyants(){
+	io = acces_memoire(&shmid);
+	if(io == NULL)  std::cout <<"erreur de memoire"<< std::endl ;
+
 
 }
 
 void Voyants::set_charge(led val)
 {
-	io = acces_memoire(&shmid);
-	if(io == NULL)  std::cout <<"erreur de memoire"<< std::endl ;
 	io->led_charge=val;
 }
 void Voyants::set_defautOFF(led val)
@@ -17,7 +18,6 @@ void Voyants::set_defautOFF(led val)
 }
 void Voyants::set_defaut(led val)
 {
-	io = acces_memoire(&shmid);
 	if(io == NULL)  std::cout <<"erreur de memoire"<< std::endl ;
 	int i;
 	for (i = 0; i < 8; i++)
@@ -32,14 +32,12 @@ void Voyants::set_defaut(led val)
  
 void Voyants::set_dispo(led val)
 {
-	io = acces_memoire(&shmid);
 	if(io == NULL)  std::cout <<"erreur de memoire"<< std::endl ;
 	io->led_dispo=val;
 }
 
 void Voyants::blink_charge(led val)
 {
-	io = acces_memoire(&shmid);
 	if(io == NULL)  std::cout <<"erreur de memoire"<< std::endl ;
 
 	for (int i = 0; i < 8; i++)
