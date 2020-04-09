@@ -2,14 +2,11 @@
 
 #ifndef VOYANTS_H
 #define VOYANTS_H
+#include <iostream>
 #include <lcarte.h>
 #include <unistd.h>
-#include <iostream>
-
 #include "donnees_borne.h"
 #include "memoire_borne.h"
-#include "boutons.h"
-#include "lecteurcarte.h"
 
 /*!
 * \file voyants.h
