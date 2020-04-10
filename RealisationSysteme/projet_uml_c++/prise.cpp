@@ -1,6 +1,6 @@
 #include "prise.h"
 
-Prise::Prise()
+Prise::Prise(Voyants &voyant):voyant(voyant)  //Generateur(LecteurCarte &lecteur ,Voyants &voyants,Prise &prise,Boutons &boutons ):lc(lecteur),voyants(voyants), prise(prise), boutons(boutons)
 {
 	io = acces_memoire(&shmid);
 	if(io == NULL) printf("erreur de memoire \n ");
@@ -34,6 +34,6 @@ void Prise::attente_pdebranche()
 	//generer_PWM(STOP);    A REGLER
 	verouiller_trappe();
 	set_prise(OFF);
-    voyants.set_dispo(VERT);   
-	voyants.set_charge(OFF);   
+    voyant.set_dispo(VERT);   
+	voyant.set_charge(OFF);   
 }

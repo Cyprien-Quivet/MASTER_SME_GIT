@@ -19,7 +19,7 @@ class Prise
 
  	public : 
 
-        Voyants &voyants;
+        Voyants &voyant;
         entrees *io;
         int depart_timer;
 	int shmid;
@@ -30,7 +30,7 @@ class Prise
 *
 * \param sans parametre
 */
-        Prise();
+        Prise(Voyants &voyant);
 /*!
 * \brief Déverrouiller la trappe de la prise
 *
