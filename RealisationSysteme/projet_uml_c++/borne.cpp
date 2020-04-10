@@ -31,7 +31,7 @@ int main()
 	    }
 
 	    if(mode == 2){
-            std::cout << "Select: \n 1) Ajouter client \n 2) Supprimer client \n 3) Afficher liste clients\n" << std::endl;
+            std::cout << "Select: \n 1) Ajouter client \n 2) Supprimer client \n 3) Afficher liste clients\n 4) Ecriture de la base clients\n" << std::endl;
             std::cin >> mode;
             
             if(mode == 1)
@@ -45,6 +45,10 @@ int main()
             if(mode == 3)
             {
                 base.afficher_liste_client();
+            }
+            if(mode == 4)
+            {
+                base.ecriture_clients_fichier();
             }
 	    }
     }

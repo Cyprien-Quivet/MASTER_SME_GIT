@@ -83,3 +83,28 @@ void BaseDonnee::afficher_liste_client()
 		}
 	}
 }
+
+void BaseDonnee::ecriture_clients_fichier()
+{
+	std::ofstream fichier("data_clients.txt".c_str());
+	if(fichier)  //On teste si tout est OK
+{
+
+	for(i =0; i< base_donnes.size() ;i++)
+	{
+		if(base_donnes[i] != 0)
+		{
+			fichier <<"Le client n° ";
+			fichier <<i;
+			fichier <<" est ";
+			fichier <<base_donnes[i] << std::endl;
+		}
+	}
+
+}
+else
+{
+    std::cout << "ERREUR: Impossible d'ouvrir le fichier." << std::endl;
+}
+
+}

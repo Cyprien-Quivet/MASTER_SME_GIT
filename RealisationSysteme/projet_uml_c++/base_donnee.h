@@ -2,6 +2,7 @@
 #define BASEDONNEE_H
 #include <iostream>
 #include <vector>
+#include <fstream>
 
 
 /*!
@@ -93,6 +94,10 @@ int  nb_clients;
 *
 */
     void afficher_liste_client() ;
+
+
+    void ecriture_clients_fichier();
+
 };
 
 #endif // BASEDONNEE_H
