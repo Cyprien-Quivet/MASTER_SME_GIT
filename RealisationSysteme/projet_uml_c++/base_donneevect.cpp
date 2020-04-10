@@ -4,16 +4,12 @@
 BaseDonnee::BaseDonnee()
 {
     nb_clients=0;
-
-    for(i=0 ; i<100; i++)
-	{
-		base_donnes[i] = 0;
-	}
+	base_donnes.push_back(0);
 }
 
 int BaseDonnee::authentifier(unsigned short int num_carte)
 {
-    	for(i =0; i<100; i++)
+    	for(i =0; i<base_donnes.size(); i++)
 	{
 		if(num_carte == base_donnes[i])
 			{
@@ -52,6 +48,8 @@ void BaseDonnee::ajouter_client(unsigned short int num_carte)
 			base_donnes[i] = num_carte;
 				std::cout <<"Client enregistré: " ;
 				std::cout <<num_carte << std::endl  ;
+				base_donnes.push_back(0);
+
 			i = 100;
 		}
 		i++; 
@@ -64,6 +62,7 @@ void BaseDonnee::supprimer_client(unsigned short int num_carte)
 	{
 		if(num_carte == base_donnes[i]){	
 		base_donnes[i] = 0;
+		base_donnes.erase(base_donnes.begin() + i); 
 		std::cout <<"Client supprimé" << std::endl;
 		}
 
@@ -72,7 +71,7 @@ void BaseDonnee::supprimer_client(unsigned short int num_carte)
 
 void BaseDonnee::afficher_liste_client()
 {
-    	for(i =0; i< 100 ;i++)
+    	for(i =0; i< base_donnes.size() ;i++)
 	{
 		if(base_donnes[i] != 0)
 		{
