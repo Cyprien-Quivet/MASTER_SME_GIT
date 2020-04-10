@@ -11,7 +11,7 @@ int main()
     Voyants voyants;
     Timer timer;
     BaseDonnee base;
-    Prise prise(voyants);
+    Prise prise(voyants );
 
     LecteurCarte lecteurcarte(boutons ,voyants ,base ,prise);
     Generateur gen (lecteurcarte ,voyants,prise,boutons );

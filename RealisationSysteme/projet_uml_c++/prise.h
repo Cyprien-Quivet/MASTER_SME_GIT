@@ -4,6 +4,7 @@
 #include "donnees_borne.h"
 #include "memoire_borne.h"
 #include "voyants.h"
+#include "generateur_save.h"
 
 
 
@@ -20,6 +21,8 @@ class Prise
  	public : 
 
         Voyants &voyant;
+        
+
         entrees *io;
         int depart_timer;
 	int shmid;
