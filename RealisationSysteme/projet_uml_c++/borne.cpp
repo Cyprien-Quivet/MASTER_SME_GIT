@@ -7,11 +7,11 @@ int mode = 0;
 
 int main()
 {
-    Prise prise;
     Boutons boutons;
     Voyants voyants;
     Timer timer;
     BaseDonnee base;
+    Prise prise(voyants);
 
     LecteurCarte lecteurcarte(boutons ,voyants ,base ,prise);
     Generateur gen (lecteurcarte ,voyants,prise,boutons );
