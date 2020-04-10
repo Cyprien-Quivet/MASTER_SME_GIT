@@ -4,9 +4,7 @@ Prise::Prise()
 {
 	io = acces_memoire(&shmid);
 	if(io == NULL) printf("erreur de memoire \n ");
-    //entrees *io;
-    //int shmid;
-   // int depart_timer;
+    
 }
 
 void Prise::deverouiller_trappe()
@@ -36,6 +34,6 @@ void Prise::attente_pdebranche()
 	//generer_PWM(STOP);    A REGLER
 	verouiller_trappe();
 	set_prise(OFF);
-//	set_dispo(VERT);     A REGLER
-	//set_charge(OFF);   A REGLER
+    voyants.set_dispo(VERT);   
+	voyants.set_charge(OFF);   
 }

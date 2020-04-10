@@ -3,6 +3,7 @@
 #include <iostream>
 #include "donnees_borne.h"
 #include "memoire_borne.h"
+#include "voyants.h"
 
 
 
@@ -18,6 +19,7 @@ class Prise
 
  	public : 
 
+        Voyants &voyants;
         entrees *io;
         int depart_timer;
 	int shmid;

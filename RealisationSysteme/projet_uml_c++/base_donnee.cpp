@@ -21,7 +21,7 @@ int BaseDonnee::authentifier(unsigned short int num_carte)
 			return 1;
 			}
 	}
-	std::cout <<"num carte" ;
+	std::cout <<"num carte " ;
 	std::cout <<num_carte << std::endl  ;
 
 	return 0;
@@ -30,9 +30,9 @@ int BaseDonnee::authentifier(unsigned short int num_carte)
 int BaseDonnee::re_authentifier(unsigned short int num_carte)
 {
 		if(num_carte == dernier_client){
-	std::cout <<"num carte" ;
+	std::cout <<"num carte " ;
 	std::cout <<num_carte << std::endl  ;
-	std::cout <<"num dernier client" ;
+	std::cout <<"num dernier client " ;
 	std::cout <<dernier_client<< std::endl  ;
       
 		return 1;
@@ -50,7 +50,7 @@ void BaseDonnee::ajouter_client(unsigned short int num_carte)
 		if(base_donnes[i] == 0)
 		{
 			base_donnes[i] = num_carte;
-				std::cout <<"Client enregistré" ;
+				std::cout <<"Client enregistré: " ;
 				std::cout <<num_carte << std::endl  ;
 			i = 100;
 		}
@@ -78,7 +78,7 @@ void BaseDonnee::afficher_liste_client()
 		{
 			std::cout <<"Le client n° ";
 			std::cout <<i;
-			std::cout <<"est";
+			std::cout <<" est ";
 			std::cout <<base_donnes[i] << std::endl;
 			
 		}
