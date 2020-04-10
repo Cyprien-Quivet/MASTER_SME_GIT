@@ -94,7 +94,12 @@ int  nb_clients;
 *
 */
     void afficher_liste_client() ;
-
+/*!
+* \brief Ecrire la liste des clients 
+*
+* Methode qui permet d'écrire la liste des clients dans un fichier .TXT
+*
+*/
 
     void ecriture_clients_fichier();
 
