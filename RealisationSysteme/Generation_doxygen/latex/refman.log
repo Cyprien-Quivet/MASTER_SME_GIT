@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  20 MAR 2020 23:21
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.20)  10 APR 2020 17:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -611,170 +611,83 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 Writing index file refman.idx
 (/usr/local/texlive/2019/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
 Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-)
-\@linkdim=\dimen159
-\Hy@linkcounter=\count134
-\Hy@pagecounter=\count135
- (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count136
- (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4519.
-Package hyperref Info: Link nesting OFF on input line 4524.
-Package hyperref Info: Hyper index ON on input line 4527.
-Package hyperref Info: Plain pages OFF on input line 4534.
-Package hyperref Info: Backreferencing ON on input line 4537.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4772.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2016/05/21 v1.39 Bibliographical back referencing
- (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
-))
-\c@Hy@tempcnt=\count137
- (/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen160
-\Fld@menulength=\count138
-\Field@Width=\dimen161
-\Fld@charsize=\dimen162
-Package hyperref Info: Hyper figures OFF on input line 6380.
-Package hyperref Info: Link nesting OFF on input line 6385.
-Package hyperref Info: Hyper index ON on input line 6388.
-Package hyperref Info: backreferencing ON on input line 6393.
-Package hyperref Info: Link coloring OFF on input line 6400.
-Package hyperref Info: Link coloring with OCG OFF on input line 6405.
-Package hyperref Info: PDF/A mode OFF on input line 6410.
-LaTeX Info: Redefining \ref on input line 6450.
-LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count139
-\c@Item=\count140
-\c@Hfootnote=\count141
-)
-Package hyperref Info: Driver (autodetected): hxetex.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
- (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
-) (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
-)
-\pdfm@box=\box74
-\c@Hy@AnnotLevel=\count142
-\HyField@AnnotCount=\count143
-\Fld@listcount=\count144
-\c@bookmark@seq@number=\count145
-\Hy@SectionHShift=\skip120
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 135.
-Package hyperref Info: Option `unicode' set `true' on input line 135.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
  (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen163
-\captionmargin@=\dimen164
-\captionwidth=\dimen165
-\caption@tempdima=\dimen166
-\caption@indent=\dimen167
-\caption@parindent=\dimen168
-\caption@hangindent=\dimen169
+\captionmargin=\dimen159
+\captionmargin@=\dimen160
+\captionwidth=\dimen161
+\caption@tempdima=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
 )
-\c@caption@flags=\count146
-\c@ContinuedFloat=\count147
+\c@caption@flags=\count134
+\c@ContinuedFloat=\count135
 Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )) (/usr/local/texlive/2019/texmf-dist/tex/latex/etoc/etoc.sty
 Package: etoc 2019/03/09 v1.09 Completely customisable TOCs (JFB)
 \Etoc@toctoks=\toks32
-\c@etoc@tocid=\count148
-\c@etoc@tocdepth=\count149
-\etoc@framed@titlebox=\box75
-\etoc@framed@contentsbox=\box76
-) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.aux)
+\c@etoc@tocid=\count136
+\c@etoc@tocdepth=\count137
+\etoc@framed@titlebox=\box74
+\etoc@framed@contentsbox=\box75
+) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.aux
+
+LaTeX Warning: Label `class_base_donnee_ac358f2e794a24205e07634feda9095b7' multiply defined.
+
+
+LaTeX Warning: Label `class_base_donnee_a6a7446d506c444d742f5a389d7fe5d28' multiply defined.
+
+
+LaTeX Warning: Label `class_base_donnee_a80694ae25ab71cc1d683021fffa2dcf9' multiply defined.
+
+
+LaTeX Warning: Label `class_base_donnee_a5810a5a7c7caa9455bdffdfc0deae688' multiply defined.
+
+
+LaTeX Warning: Label `class_base_donnee_a26e0027fc908dd4de6ecab55e4712f11' multiply defined.
+
+
+LaTeX Warning: Label `class_base_donnee_a51ec0652855fb207a11f1e9f90b016c9' multiply defined.
+
+
+LaTeX Warning: Label `class_base_donnee_a1a456ee3be91774f888b9e624d943e44' multiply defined.
+
+)
 \openout1 = `refman.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 150.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 132.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 150.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 132.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 150.
+(Font)              scaled to size 8.99994pt on input line 132.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -810,120 +723,69 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box77
-Package backref Info: ** backref set up for natbib ** on input line 150.
-Package hyperref Info: Link coloring ON on input line 150.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
- (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count150
-)
-LaTeX Info: Redefining \ref on input line 150.
-LaTeX Info: Redefining \pageref on input line 150.
-LaTeX Info: Redefining \nameref on input line 150.
- (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.out) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.out)
-\@outlinefile=\write5
-\openout5 = `refman.out'.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \Etoc@tf=\read3
-Package hyperref Info: Option `pageanchor' set `false' on input line 156.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 156.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 161.
+(Font)              scaled to size 12.9599pt on input line 139.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 161.
-LaTeX Font Info:    Try loading font information for U+msa on input line 161.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+(Font)              scaled to size 10.79993pt on input line 139.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 139.
+LaTeX Font Info:    Try loading font information for U+msa on input line 139.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 161.
+LaTeX Font Info:    Try loading font information for U+msb on input line 139.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 161.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 139.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 161.
- [1
+) [1
 
 
 ] [2
 
 ]
-\tf@toc=\write6
-\openout6 = `refman.toc'.
+\tf@toc=\write5
+\openout5 = `refman.toc'.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 169.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 169.
+(Font)              scaled to size 8.99994pt on input line 147.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 147.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 147.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 169.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 169.
- [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
- [][] [][]\T1/phv/m/n/10 4.1 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
- [][] [][]\T1/phv/m/n/10 4.2 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
- [][] [][]\T1/phv/m/n/10 4.3 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
- [][] [][]\T1/phv/m/n/10 4.4 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
- [][] [][]\T1/phv/m/n/10 4.5 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
- [][] [][]\T1/phv/m/n/10 4.6 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
- [][] [][]\T1/phv/m/n/10 4.7 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[] 
- []
-
-[3] [4
+(Font)              scaled to size 6.29996pt on input line 147.
+ [1] [2] [3] [4
 
 ]
-Package hyperref Info: Option `pageanchor' set `true' on input line 171.
-
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 174.
+(Font)              scaled to size 18.66588pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 174.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 174.
+(Font)              scaled to size 18.66588pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 18.66588pt on input line 174.
+(Font)              scaled to size 18.66588pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 174.
+(Font)              scaled to size 22.39185pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 174.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 174.
+(Font)              scaled to size 22.39185pt on input line 151.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 22.39185pt on input line 174.
+(Font)              scaled to size 22.39185pt on input line 151.
 (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/annotated.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
@@ -936,29 +798,18 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 ]
 Chapter 2.
 (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/files.tex
-Overfull \hbox (22.77092pt too wide) in paragraph at lines 3--3
- [][] \T1/phv/m/n/10 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[]c++/[]  
- []
 
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 4.
+LaTeX Warning: Reference `base__donneeold_8h' on page 3 undefined on input line 4.
+
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 5.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 4.
+(Font)              scaled to size 8.99994pt on input line 5.
 
 
-LaTeX Warning: Reference `generateur__save_8h' on page 3 undefined on input line 6.
-
-
-Overfull \hbox (16.44366pt too wide) in paragraph at lines 6--6
- [][] \T1/phv/m/n/10 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[]c++/\T1/phv/b/n/10 generateur[] 
- []
-
-
-Overfull \hbox (15.60687pt too wide) in paragraph at lines 7--7
- [][] \T1/phv/m/n/10 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[]c++/[]  
- []
+LaTeX Warning: Reference `generateur__save_8h' on page 3 undefined on input line 7.
 
 ) [3] [4
 
@@ -979,63 +830,69 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 6.29996pt on input line 11.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 38.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 38.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [5]
+ [5]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 55.
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <8> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 55.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 61.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 99.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 61.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 99.
  [6]
-Underfull \hbox (badness 10000) detected at line 91
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 121
+Underfull \hbox (badness 10000) detected at line 146
 [][][]
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]\T1/phv/m/n/10 C[]:/[]Users/cyprien quivet/[]Desktop/[]G[]I[]T/[]M[]A[]S[]T[]E[]R[]_[][]S[]M[]E[]_[][]G[]I[]T/[]Realisation[]Systeme/projet[]_[]uml[]_[]c++/base[]_[]
+Underfull \hbox (badness 10000) detected at line 166
+[][][]
  []
 
-) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_borne.tex [8]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_boutons.tex [9]
+[8]
+Underfull \hbox (badness 10000) detected at line 216
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 236
+[][][]
+ []
+
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_borne.tex) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_boutons.tex [11]
 Underfull \hbox (badness 10000) detected at line 53
 [][][]
  []
 
-
+[12]
 Underfull \hbox (badness 10000) detected at line 71
 [][][]
  []
 
-[10]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_generateur.tex [11]
+) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_generateur.tex [13]
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <7> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 43.
+ [14]
 Underfull \hbox (badness 10000) detected at line 74
 [][][]
  []
 
-[12]
+
 Underfull \hbox (badness 10000) detected at line 109
 [][][]
  []
 
-
+[15]
 Underfull \hbox (badness 10000) detected at line 127
 [][][]
  []
 
-
-Underfull \vbox (badness 2903) has occurred while \output is active []
-
- [13]
+[16]
 Underfull \hbox (badness 10000) detected at line 179
 [][][]
  []
@@ -1045,19 +902,33 @@ Underfull \hbox (badness 10000) detected at line 197
 [][][]
  []
 
-[14]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_lecteur_carte.tex
+[17]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_lecteur_carte.tex
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
 (Font)              Font shape `TS1/phv/m/sl' tried instead on input line 9.
 LaTeX Font Info:    Font shape `TS1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 9.
- [15] [16] [17] [18]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_prise.tex [19] [20]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_timer.tex [21]
+ [18] [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \vbox (6.12773pt too high) has occurred while \output is active []
+
+ [21]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_prise.tex
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <9> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 13.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <9> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 13.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 8.09995pt on input line 13.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22] [23]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_timer.tex [24]
 Underfull \hbox (badness 10000) detected at line 58
 [][][]
  []
 
-) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_voyants.tex [22] [23] [24]) [25] [26
-
-]
+) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/class_voyants.tex [25] [26] [27]) [28]
 Chapter 4.
 (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/base__donnee_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--11
@@ -1070,16 +941,58 @@ Underfull \hbox (badness 10000) detected at line 21
  []
 
 ) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/borne_8h.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 8--18
 
  []
 
-[27]
-Underfull \hbox (badness 10000) detected at line 19
+[29
+
+]
+Underfull \hbox (badness 10000) detected at line 28
 [][][]
  []
 
 ) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/boutons_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 22
+[][][]
+ []
+
+) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/lecteurcarte_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--18
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) detected at line 28
+[][][]
+ []
+
+) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/prise_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 22
+[][][]
+ []
+
+) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/timer_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 21
+[][][]
+ []
+
+) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/voyants_8h.tex [31]
 Underfull \hbox (badness 10000) in paragraph at lines 8--13
 
  []
@@ -1089,111 +1002,25 @@ Underfull \hbox (badness 10000) detected at line 23
 [][][]
  []
 
-) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/lecteurcarte_8h.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--19
-
- []
-
-[28]
-Underfull \hbox (badness 10000) detected at line 29
-[][][]
- []
-
-) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/prise_8h.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--15
-
- []
-
-
-Underfull \hbox (badness 10000) detected at line 25
-[][][]
- []
-
-) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/timer_8h.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--12
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 22.16548pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[29]
-Underfull \hbox (badness 10000) detected at line 22
-[][][]
- []
-
-) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/voyants_8h.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--15
-
- []
-
-
-Underfull \hbox (badness 10000) detected at line 25
-[][][]
- []
-
-) [30] (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.ind
-Overfull \hbox (220.71864pt too wide) in paragraph at lines 46--48
-[]\T1/phv/m/n/10 C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/base_donnee.h,
- []
-
-
-Overfull \hbox (189.41716pt too wide) in paragraph at lines 48--50
-[]\T1/phv/m/n/10 C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/borne.h,
- []
-
-
-Overfull \hbox (198.201pt too wide) in paragraph at lines 50--52
-[]\T1/phv/m/n/10 C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/boutons.h,
- []
-
-
-Overfull \hbox (213.5546pt too wide) in paragraph at lines 52--54
-[]\T1/phv/m/n/10 C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/lecteurcarte.h,
- []
-
-
-Overfull \hbox (185.81718pt too wide) in paragraph at lines 54--56
-[]\T1/phv/m/n/10 C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/prise.h,
- []
-
-
-Overfull \hbox (185.8621pt too wide) in paragraph at lines 56--58
-[]\T1/phv/m/n/10 C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/timer.h,
- []
-
-
-Overfull \hbox (196.51822pt too wide) in paragraph at lines 58--60
-[]\T1/phv/m/n/10 C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/voyants.h,
- []
-
-[31
+) [32] (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.ind [33
 
 
 
-] [32])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
- (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
-Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 2CA4E3ED5ADE94E17BD3EF519187DFB7.
-
+] [34]) (/Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 16240 strings out of 492916
- 242104 string characters out of 6133345
- 404600 words of memory out of 5000000
- 20000 multiletter control sequences out of 15000+600000
- 49337 words of font info for 70 fonts, out of 8000000 for 9000
+ 9052 strings out of 492916
+ 138134 string characters out of 6133345
+ 242352 words of memory out of 5000000
+ 12863 multiletter control sequences out of 15000+600000
+ 52950 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,15n,92p,3738b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,16n,92p,1036b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.xdv (38 pages, 205880 bytes).
+Output written on /Users/cyprienquivet/Documents/GIT/MASTER_SME_GIT/RealisationSysteme/Generation_doxygen/latex/refman.xdv (40 pages, 118732 bytes).

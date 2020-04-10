@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Borne_C++: C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/lecteurcarte.h Source File</title>
+<title>Borne de recharge C++: lecteurcarte.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,12 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="cropped-Logo-master-EEA.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Borne_C++
-   &#160;<span id="projectnumber">V1</span>
+   <div id="projectname">Borne de recharge C++
+   &#160;<span id="projectnumber">V2.0</span>
    </div>
-   <div id="projectbrief">réalisation de la borne en C++</div>
+   <div id="projectbrief">Création d&#39;une borne de recharge pour véhicule électrique</div>
   </td>
  </tr>
  </tbody>
@@ -48,6 +47,7 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -62,11 +62,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_e04ae2849dfa520b4ee2c9f7e9ff15de.html">Desktop</a></li><li class="navelem"><a class="el" href="dir_84623d35c21b4f551985e6599254f442.html">GIT</a></li><li class="navelem"><a class="el" href="dir_9f5edfaae88a337dfc275146dc8cd43a.html">MASTER_SME_GIT</a></li><li class="navelem"><a class="el" href="dir_b8056ccd30cf6b9772f453a2cfccee68.html">RealisationSysteme</a></li><li class="navelem"><a class="el" href="dir_562ac74ee5cc42fdb4ec24a9e71aaa09.html">projet_uml_c++</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle">
 <div class="title">lecteurcarte.h</div>  </div>
@@ -74,19 +69,19 @@ $(function() {
 <div class="contents">
 <a href="lecteurcarte_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef LECTEURCARTE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define LECTEURCARTE_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;lcarte.h&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;donnees_borne.h&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;memoire_borne.h&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="base__donnee_8h.html">base_donnee.h</a>&quot;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="voyants_8h.html">voyants.h</a>&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="boutons_8h.html">boutons.h</a>&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;generateur_save.h&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="prise_8h.html">prise.h</a>&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lecteurcarte_8h.html">lecteurcarte.h</a>&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;lcarte.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;donnees_borne.h&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;memoire_borne.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="base__donnee_8h.html">base_donnee.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="voyants_8h.html">voyants.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="boutons_8h.html">boutons.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;generateur_save.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="prise_8h.html">prise.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">//class Generateur;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span><a class="code" href="class_generateur.html">Generateur</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
@@ -126,22 +121,21 @@ $(function() {
 <div class="ttc" id="aclass_lecteur_carte_html_acad0526999bd70ce94bdba61b0a8d5f1"><div class="ttname"><a href="class_lecteur_carte.html#acad0526999bd70ce94bdba61b0a8d5f1">LecteurCarte::LecteurCarte</a></div><div class="ttdeci">LecteurCarte(Boutons &amp;bouton, Voyants &amp;voyant, BaseDonnee &amp;bd, Prise &amp;p)</div><div class="ttdoc">Constructeur.</div><div class="ttdef"><b>Definition:</b> lecteurcarte.cpp:5</div></div>
 <div class="ttc" id="aprise_8h_html"><div class="ttname"><a href="prise_8h.html">prise.h</a></div><div class="ttdoc">Classe permettant de gérer les actions sur la prise électrique du véhicule.</div></div>
 <div class="ttc" id="aclass_lecteur_carte_html_a6e6a78969d6cd765b594688734729bbd"><div class="ttname"><a href="class_lecteur_carte.html#a6e6a78969d6cd765b594688734729bbd">LecteurCarte::_lire_carte_supprimer</a></div><div class="ttdeci">void _lire_carte_supprimer()</div><div class="ttdoc">Supprimer une carte.</div><div class="ttdef"><b>Definition:</b> lecteurcarte.cpp:107</div></div>
-<div class="ttc" id="aclass_prise_html"><div class="ttname"><a href="class_prise.html">Prise</a></div><div class="ttdef"><b>Definition:</b> prise.h:18</div></div>
+<div class="ttc" id="aclass_prise_html"><div class="ttname"><a href="class_prise.html">Prise</a></div><div class="ttdef"><b>Definition:</b> prise.h:16</div></div>
 <div class="ttc" id="aclass_lecteur_carte_html_aa039f023d71c7fdb6765f8feaf5940fc"><div class="ttname"><a href="class_lecteur_carte.html#aa039f023d71c7fdb6765f8feaf5940fc">LecteurCarte::connect_gene</a></div><div class="ttdeci">void connect_gene(Generateur *g)</div><div class="ttdoc">Fonction de connection de classes.</div><div class="ttdef"><b>Definition:</b> lecteurcarte.h:102</div></div>
 <div class="ttc" id="abase__donnee_8h_html"><div class="ttname"><a href="base__donnee_8h.html">base_donnee.h</a></div><div class="ttdoc">Gestion de la base de données clients.</div></div>
-<div class="ttc" id="aclass_boutons_html"><div class="ttname"><a href="class_boutons.html">Boutons</a></div><div class="ttdef"><b>Definition:</b> boutons.h:15</div></div>
+<div class="ttc" id="aclass_boutons_html"><div class="ttname"><a href="class_boutons.html">Boutons</a></div><div class="ttdef"><b>Definition:</b> boutons.h:13</div></div>
 <div class="ttc" id="aclass_lecteur_carte_html_a48fc2a14dd17ab5a0a1f85fbd238862a"><div class="ttname"><a href="class_lecteur_carte.html#a48fc2a14dd17ab5a0a1f85fbd238862a">LecteurCarte::_lire_carte_ajouter</a></div><div class="ttdeci">void _lire_carte_ajouter()</div><div class="ttdoc">Ajouter une carte.</div><div class="ttdef"><b>Definition:</b> lecteurcarte.cpp:99</div></div>
 <div class="ttc" id="aboutons_8h_html"><div class="ttname"><a href="boutons_8h.html">boutons.h</a></div><div class="ttdoc">Classe permettant à l'utilisateur d'intéragir avec les boutons de l'IHM.</div></div>
-<div class="ttc" id="alecteurcarte_8h_html"><div class="ttname"><a href="lecteurcarte_8h.html">lecteurcarte.h</a></div><div class="ttdoc">Classe permettant de gérer le lecteur de carte qui permet au client d'insérer sa carte abonné.</div></div>
 <div class="ttc" id="aclass_lecteur_carte_html"><div class="ttname"><a href="class_lecteur_carte.html">LecteurCarte</a></div><div class="ttdef"><b>Definition:</b> lecteurcarte.h:24</div></div>
 <div class="ttc" id="avoyants_8h_html"><div class="ttname"><a href="voyants_8h.html">voyants.h</a></div><div class="ttdoc">Classe permettant de gérer les voyants présents l'IHM de la borne.</div></div>
 <div class="ttc" id="aclass_lecteur_carte_html_a90e4f75fb492935ebaf5f908173763af"><div class="ttname"><a href="class_lecteur_carte.html#a90e4f75fb492935ebaf5f908173763af">LecteurCarte::lire_carte</a></div><div class="ttdeci">void lire_carte()</div><div class="ttdoc">Lire la carte d'un client.</div></div>
 <div class="ttc" id="aclass_lecteur_carte_html_adee5ff802a39b247eece83dc63cf9b11"><div class="ttname"><a href="class_lecteur_carte.html#adee5ff802a39b247eece83dc63cf9b11">LecteurCarte::lecteurcarte_lire_carte</a></div><div class="ttdeci">void lecteurcarte_lire_carte()</div><div class="ttdoc">Lire la carte d'un client.</div><div class="ttdef"><b>Definition:</b> lecteurcarte.cpp:14</div></div>
-<div class="ttc" id="aclass_base_donnee_html"><div class="ttname"><a href="class_base_donnee.html">BaseDonnee</a></div><div class="ttdef"><b>Definition:</b> base_donnee.h:13</div></div>
+<div class="ttc" id="aclass_base_donnee_html"><div class="ttname"><a href="class_base_donnee.html">BaseDonnee</a></div><div class="ttdef"><b>Definition:</b> base_donnee.h:14</div></div>
 <div class="ttc" id="aclass_lecteur_carte_html_a14e59821bf52ee057f88ec0fdc3581b8"><div class="ttname"><a href="class_lecteur_carte.html#a14e59821bf52ee057f88ec0fdc3581b8">LecteurCarte::lecteurcarte_relire_carte</a></div><div class="ttdeci">void lecteurcarte_relire_carte()</div><div class="ttdoc">Relire la carte d'un client.</div><div class="ttdef"><b>Definition:</b> lecteurcarte.cpp:56</div></div>
 <div class="ttc" id="aclass_lecteur_carte_html_a23633c4a0d0f9dee481efb69004da0c3"><div class="ttname"><a href="class_lecteur_carte.html#a23633c4a0d0f9dee481efb69004da0c3">LecteurCarte::num_client</a></div><div class="ttdeci">unsigned short int num_client</div><div class="ttdef"><b>Definition:</b> lecteurcarte.h:51</div></div>
-<div class="ttc" id="aclass_generateur_html"><div class="ttname"><a href="class_generateur.html">Generateur</a></div><div class="ttdef"><b>Definition:</b> generateur_save.h:18</div></div>
-<div class="ttc" id="aclass_voyants_html"><div class="ttname"><a href="class_voyants.html">Voyants</a></div><div class="ttdef"><b>Definition:</b> voyants.h:20</div></div>
+<div class="ttc" id="aclass_generateur_html"><div class="ttname"><a href="class_generateur.html">Generateur</a></div><div class="ttdef"><b>Definition:</b> generateur_save.h:19</div></div>
+<div class="ttc" id="aclass_voyants_html"><div class="ttname"><a href="class_voyants.html">Voyants</a></div><div class="ttdef"><b>Definition:</b> voyants.h:18</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

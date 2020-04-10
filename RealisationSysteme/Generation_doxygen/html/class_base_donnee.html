@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Borne_C++: BaseDonnee Class Reference</title>
+<title>Borne de recharge C++: BaseDonnee Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,12 +20,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
-  <td id="projectlogo"><img alt="Logo" src="cropped-Logo-master-EEA.jpg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Borne_C++
-   &#160;<span id="projectnumber">V1</span>
+   <div id="projectname">Borne de recharge C++
+   &#160;<span id="projectnumber">V2.0</span>
    </div>
-   <div id="projectbrief">réalisation de la borne en C++</div>
+   <div id="projectbrief">Création d&#39;une borne de recharge pour véhicule électrique</div>
   </td>
  </tr>
  </tbody>
@@ -96,21 +95,67 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a7446d506c444d742f5a389d7fe5d28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a6a7446d506c444d742f5a389d7fe5d28">afficher_liste_client</a> ()</td></tr>
 <tr class="memdesc:a6a7446d506c444d742f5a389d7fe5d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afficher la liste client.  <a href="class_base_donnee.html#a6a7446d506c444d742f5a389d7fe5d28">More...</a><br /></td></tr>
 <tr class="separator:a6a7446d506c444d742f5a389d7fe5d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb066986867cf47dea895cdcb0c754b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#afb066986867cf47dea895cdcb0c754b3">ecriture_clients_fichier</a> ()</td></tr>
+<tr class="memdesc:afb066986867cf47dea895cdcb0c754b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ecrire la liste des clients.  <a href="class_base_donnee.html#afb066986867cf47dea895cdcb0c754b3">More...</a><br /></td></tr>
+<tr class="separator:afb066986867cf47dea895cdcb0c754b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac358f2e794a24205e07634feda9095b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#ac358f2e794a24205e07634feda9095b7">BaseDonnee</a> ()</td></tr>
+<tr class="memdesc:ac358f2e794a24205e07634feda9095b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructeur de la classe.  <a href="class_base_donnee.html#ac358f2e794a24205e07634feda9095b7">More...</a><br /></td></tr>
+<tr class="separator:ac358f2e794a24205e07634feda9095b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5810a5a7c7caa9455bdffdfc0deae688"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a5810a5a7c7caa9455bdffdfc0deae688">authentifier</a> (unsigned short int num_carte)</td></tr>
+<tr class="memdesc:a5810a5a7c7caa9455bdffdfc0deae688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authentifier un client.  <a href="class_base_donnee.html#a5810a5a7c7caa9455bdffdfc0deae688">More...</a><br /></td></tr>
+<tr class="separator:a5810a5a7c7caa9455bdffdfc0deae688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ec0652855fb207a11f1e9f90b016c9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a51ec0652855fb207a11f1e9f90b016c9">re_authentifier</a> (unsigned short int num_carte)</td></tr>
+<tr class="memdesc:a51ec0652855fb207a11f1e9f90b016c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ré-Authentifier un client.  <a href="class_base_donnee.html#a51ec0652855fb207a11f1e9f90b016c9">More...</a><br /></td></tr>
+<tr class="separator:a51ec0652855fb207a11f1e9f90b016c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80694ae25ab71cc1d683021fffa2dcf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a80694ae25ab71cc1d683021fffa2dcf9">ajouter_client</a> (unsigned short int num_carte)</td></tr>
+<tr class="memdesc:a80694ae25ab71cc1d683021fffa2dcf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajouter un client.  <a href="class_base_donnee.html#a80694ae25ab71cc1d683021fffa2dcf9">More...</a><br /></td></tr>
+<tr class="separator:a80694ae25ab71cc1d683021fffa2dcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a456ee3be91774f888b9e624d943e44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a1a456ee3be91774f888b9e624d943e44">supprimer_client</a> (unsigned short int num_carte)</td></tr>
+<tr class="memdesc:a1a456ee3be91774f888b9e624d943e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supprimer un client.  <a href="class_base_donnee.html#a1a456ee3be91774f888b9e624d943e44">More...</a><br /></td></tr>
+<tr class="separator:a1a456ee3be91774f888b9e624d943e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e0027fc908dd4de6ecab55e4712f11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a26e0027fc908dd4de6ecab55e4712f11">init_base_client</a> ()</td></tr>
+<tr class="memdesc:a26e0027fc908dd4de6ecab55e4712f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialiser la base de donnée.  <a href="class_base_donnee.html#a26e0027fc908dd4de6ecab55e4712f11">More...</a><br /></td></tr>
+<tr class="separator:a26e0027fc908dd4de6ecab55e4712f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a7446d506c444d742f5a389d7fe5d28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a6a7446d506c444d742f5a389d7fe5d28">afficher_liste_client</a> ()</td></tr>
+<tr class="memdesc:a6a7446d506c444d742f5a389d7fe5d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afficher la liste client.  <a href="class_base_donnee.html#a6a7446d506c444d742f5a389d7fe5d28">More...</a><br /></td></tr>
+<tr class="separator:a6a7446d506c444d742f5a389d7fe5d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac1ebf1c94424c89f2d0ce3f1b2ce2ef9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#ac1ebf1c94424c89f2d0ce3f1b2ce2ef9">base_donnes</a> [100]</td></tr>
-<tr class="separator:ac1ebf1c94424c89f2d0ce3f1b2ce2ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9024913f8db8188f64589e728d617ea0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a9024913f8db8188f64589e728d617ea0">base_donnes</a></td></tr>
+<tr class="separator:a9024913f8db8188f64589e728d617ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4081ca059458539e3acacfe3b80e992"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#ae4081ca059458539e3acacfe3b80e992">i</a></td></tr>
 <tr class="separator:ae4081ca059458539e3acacfe3b80e992"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75090ffcfcbc1c1ac3f069188407e2cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a75090ffcfcbc1c1ac3f069188407e2cb">dernier_client</a></td></tr>
 <tr class="separator:a75090ffcfcbc1c1ac3f069188407e2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0289ab7f4c675e0a31f32c9ea102bba8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#a0289ab7f4c675e0a31f32c9ea102bba8">nb_clients</a></td></tr>
 <tr class="separator:a0289ab7f4c675e0a31f32c9ea102bba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ebf1c94424c89f2d0ce3f1b2ce2ef9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_base_donnee.html#ac1ebf1c94424c89f2d0ce3f1b2ce2ef9">base_donnes</a> [100]</td></tr>
+<tr class="separator:ac1ebf1c94424c89f2d0ce3f1b2ce2ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac358f2e794a24205e07634feda9095b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac358f2e794a24205e07634feda9095b7">&#9670;&nbsp;</a></span>BaseDonnee()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac358f2e794a24205e07634feda9095b7">&#9670;&nbsp;</a></span>BaseDonnee() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BaseDonnee::BaseDonnee </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructeur de la classe. </p>
+<p>Constructeur sans paramètre. </p>
+
+</div>
+</div>
+<a id="ac358f2e794a24205e07634feda9095b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac358f2e794a24205e07634feda9095b7">&#9670;&nbsp;</a></span>BaseDonnee() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -131,7 +176,27 @@ Public Attributes</h2></td></tr>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6a7446d506c444d742f5a389d7fe5d28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a7446d506c444d742f5a389d7fe5d28">&#9670;&nbsp;</a></span>afficher_liste_client()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a7446d506c444d742f5a389d7fe5d28">&#9670;&nbsp;</a></span>afficher_liste_client() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BaseDonnee::afficher_liste_client </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Afficher la liste client. </p>
+<p>Methode qui permet d'afficher la liste des clients appartenants à la base de donnée. </p>
+
+</div>
+</div>
+<a id="a6a7446d506c444d742f5a389d7fe5d28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a7446d506c444d742f5a389d7fe5d28">&#9670;&nbsp;</a></span>afficher_liste_client() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,7 +216,34 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a80694ae25ab71cc1d683021fffa2dcf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80694ae25ab71cc1d683021fffa2dcf9">&#9670;&nbsp;</a></span>ajouter_client()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a80694ae25ab71cc1d683021fffa2dcf9">&#9670;&nbsp;</a></span>ajouter_client() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BaseDonnee::ajouter_client </td>
+          <td>(</td>
+          <td class="paramtype">unsigned short int&#160;</td>
+          <td class="paramname"><em>num_carte</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ajouter un client. </p>
+<p>Methode qui permet d'ajouter un client à la base de données.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num_carte</td><td>: le numéro de la carte qui sera attribuée au client. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a80694ae25ab71cc1d683021fffa2dcf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80694ae25ab71cc1d683021fffa2dcf9">&#9670;&nbsp;</a></span>ajouter_client() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,7 +270,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a5810a5a7c7caa9455bdffdfc0deae688"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5810a5a7c7caa9455bdffdfc0deae688">&#9670;&nbsp;</a></span>authentifier()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5810a5a7c7caa9455bdffdfc0deae688">&#9670;&nbsp;</a></span>authentifier() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,8 +297,76 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5810a5a7c7caa9455bdffdfc0deae688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5810a5a7c7caa9455bdffdfc0deae688">&#9670;&nbsp;</a></span>authentifier() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BaseDonnee::authentifier </td>
+          <td>(</td>
+          <td class="paramtype">unsigned short int&#160;</td>
+          <td class="paramname"><em>num_carte</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Authentifier un client. </p>
+<p>Methode qui permet d'authentifier un client appartenant à la base de données.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num_carte</td><td>: le numéro de la carte que possède le client </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>1 si l'authentification réussit, 0 si elle échoue </dd></dl>
+
+</div>
+</div>
+<a id="afb066986867cf47dea895cdcb0c754b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb066986867cf47dea895cdcb0c754b3">&#9670;&nbsp;</a></span>ecriture_clients_fichier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BaseDonnee::ecriture_clients_fichier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ecrire la liste des clients. </p>
+<p>Methode qui permet d'écrire la liste des clients dans un fichier .TXT </p>
+
+</div>
+</div>
 <a id="a26e0027fc908dd4de6ecab55e4712f11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26e0027fc908dd4de6ecab55e4712f11">&#9670;&nbsp;</a></span>init_base_client()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e0027fc908dd4de6ecab55e4712f11">&#9670;&nbsp;</a></span>init_base_client() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BaseDonnee::init_base_client </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialiser la base de donnée. </p>
+<p>Methode qui permet d'initialiser la base de donnée au démarage de l'IHM. </p>
+
+</div>
+</div>
+<a id="a26e0027fc908dd4de6ecab55e4712f11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e0027fc908dd4de6ecab55e4712f11">&#9670;&nbsp;</a></span>init_base_client() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +386,35 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a51ec0652855fb207a11f1e9f90b016c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51ec0652855fb207a11f1e9f90b016c9">&#9670;&nbsp;</a></span>re_authentifier()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a51ec0652855fb207a11f1e9f90b016c9">&#9670;&nbsp;</a></span>re_authentifier() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BaseDonnee::re_authentifier </td>
+          <td>(</td>
+          <td class="paramtype">unsigned short int&#160;</td>
+          <td class="paramname"><em>num_carte</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ré-Authentifier un client. </p>
+<p>Methode qui permet de ré-authentifier pour permettre la reprise du véhicule.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">num_carte</td><td>: le numéro de la carte que possède le client </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>1 si l'authentification réussit, 0 si elle échoue </dd></dl>
+
+</div>
+</div>
+<a id="a51ec0652855fb207a11f1e9f90b016c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51ec0652855fb207a11f1e9f90b016c9">&#9670;&nbsp;</a></span>re_authentifier() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,7 +442,28 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a1a456ee3be91774f888b9e624d943e44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a456ee3be91774f888b9e624d943e44">&#9670;&nbsp;</a></span>supprimer_client()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a456ee3be91774f888b9e624d943e44">&#9670;&nbsp;</a></span>supprimer_client() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BaseDonnee::supprimer_client </td>
+          <td>(</td>
+          <td class="paramtype">unsigned short int&#160;</td>
+          <td class="paramname"><em>num_carte</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Supprimer un client. </p>
+<p>Methode qui permet de supprimer un client de la base de données. </p>
+
+</div>
+</div>
+<a id="a1a456ee3be91774f888b9e624d943e44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a456ee3be91774f888b9e624d943e44">&#9670;&nbsp;</a></span>supprimer_client() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,8 +484,28 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9024913f8db8188f64589e728d617ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9024913f8db8188f64589e728d617ea0">&#9670;&nbsp;</a></span>base_donnes <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; BaseDonnee::base_donnes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">base_donnes</td><td>: Variable de type entier. Tableau de données contenant tous les clients enrengistrés. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ac1ebf1c94424c89f2d0ce3f1b2ce2ef9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1ebf1c94424c89f2d0ce3f1b2ce2ef9">&#9670;&nbsp;</a></span>base_donnes</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1ebf1c94424c89f2d0ce3f1b2ce2ef9">&#9670;&nbsp;</a></span>base_donnes <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -356,8 +585,10 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/<a class="el" href="base__donnee_8h_source.html">base_donnee.h</a></li>
-<li>C:/Users/cyprien quivet/Desktop/GIT/MASTER_SME_GIT/RealisationSysteme/projet_uml_c++/base_donnee.cpp</li>
+<li><a class="el" href="base__donnee_8h_source.html">base_donnee.h</a></li>
+<li><a class="el" href="base__donneeold_8h_source.html">base_donneeold.h</a></li>
+<li>base_donnee.cpp</li>
+<li>base_donneeold.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

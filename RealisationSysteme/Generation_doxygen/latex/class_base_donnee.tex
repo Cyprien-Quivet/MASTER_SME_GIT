@@ -1,40 +1,68 @@
-\hypertarget{class_base_donnee}{}\doxysection{Base\+Donnee Class Reference}
+\doxysection{Base\+Donnee Class Reference}
 \label{class_base_donnee}\index{BaseDonnee@{BaseDonnee}}
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{class_base_donnee_ac358f2e794a24205e07634feda9095b7}{Base\+Donnee}} ()
+\textbf{ Base\+Donnee} ()
 \begin{DoxyCompactList}\small\item\em Constructeur de la classe. \end{DoxyCompactList}\item 
-int \mbox{\hyperlink{class_base_donnee_a5810a5a7c7caa9455bdffdfc0deae688}{authentifier}} (unsigned short int num\+\_\+carte)
+int \textbf{ authentifier} (unsigned short int num\+\_\+carte)
 \begin{DoxyCompactList}\small\item\em Authentifier un client. \end{DoxyCompactList}\item 
-int \mbox{\hyperlink{class_base_donnee_a51ec0652855fb207a11f1e9f90b016c9}{re\+\_\+authentifier}} (unsigned short int num\+\_\+carte)
+int \textbf{ re\+\_\+authentifier} (unsigned short int num\+\_\+carte)
 \begin{DoxyCompactList}\small\item\em Ré-\/\+Authentifier un client. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_base_donnee_a80694ae25ab71cc1d683021fffa2dcf9}{ajouter\+\_\+client}} (unsigned short int num\+\_\+carte)
+void \textbf{ ajouter\+\_\+client} (unsigned short int num\+\_\+carte)
 \begin{DoxyCompactList}\small\item\em Ajouter un client. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_base_donnee_a1a456ee3be91774f888b9e624d943e44}{supprimer\+\_\+client}} (unsigned short int num\+\_\+carte)
+void \textbf{ supprimer\+\_\+client} (unsigned short int num\+\_\+carte)
 \begin{DoxyCompactList}\small\item\em Supprimer un client. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_base_donnee_a26e0027fc908dd4de6ecab55e4712f11}{init\+\_\+base\+\_\+client}} ()
+void \textbf{ init\+\_\+base\+\_\+client} ()
 \begin{DoxyCompactList}\small\item\em Initialiser la base de donnée. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_base_donnee_a6a7446d506c444d742f5a389d7fe5d28}{afficher\+\_\+liste\+\_\+client}} ()
+void \textbf{ afficher\+\_\+liste\+\_\+client} ()
+\begin{DoxyCompactList}\small\item\em Afficher la liste client. \end{DoxyCompactList}\item 
+void \textbf{ ecriture\+\_\+clients\+\_\+fichier} ()
+\begin{DoxyCompactList}\small\item\em Ecrire la liste des clients. \end{DoxyCompactList}\item 
+\textbf{ Base\+Donnee} ()
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe. \end{DoxyCompactList}\item 
+int \textbf{ authentifier} (unsigned short int num\+\_\+carte)
+\begin{DoxyCompactList}\small\item\em Authentifier un client. \end{DoxyCompactList}\item 
+int \textbf{ re\+\_\+authentifier} (unsigned short int num\+\_\+carte)
+\begin{DoxyCompactList}\small\item\em Ré-\/\+Authentifier un client. \end{DoxyCompactList}\item 
+void \textbf{ ajouter\+\_\+client} (unsigned short int num\+\_\+carte)
+\begin{DoxyCompactList}\small\item\em Ajouter un client. \end{DoxyCompactList}\item 
+void \textbf{ supprimer\+\_\+client} (unsigned short int num\+\_\+carte)
+\begin{DoxyCompactList}\small\item\em Supprimer un client. \end{DoxyCompactList}\item 
+void \textbf{ init\+\_\+base\+\_\+client} ()
+\begin{DoxyCompactList}\small\item\em Initialiser la base de donnée. \end{DoxyCompactList}\item 
+void \textbf{ afficher\+\_\+liste\+\_\+client} ()
 \begin{DoxyCompactList}\small\item\em Afficher la liste client. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
-int \mbox{\hyperlink{class_base_donnee_ac1ebf1c94424c89f2d0ce3f1b2ce2ef9}{base\+\_\+donnes}} \mbox{[}100\mbox{]}
+std\+::vector$<$ int $>$ \textbf{ base\+\_\+donnes}
 \item 
-int \mbox{\hyperlink{class_base_donnee_ae4081ca059458539e3acacfe3b80e992}{i}}
+int \textbf{ i}
 \item 
-int \mbox{\hyperlink{class_base_donnee_a75090ffcfcbc1c1ac3f069188407e2cb}{dernier\+\_\+client}}
+int \textbf{ dernier\+\_\+client}
 \item 
-int \mbox{\hyperlink{class_base_donnee_a0289ab7f4c675e0a31f32c9ea102bba8}{nb\+\_\+clients}}
+int \textbf{ nb\+\_\+clients}
+\item 
+int \textbf{ base\+\_\+donnes} [100]
 \end{DoxyCompactItemize}
 
 
 \doxysubsection{Constructor \& Destructor Documentation}
-\mbox{\Hypertarget{class_base_donnee_ac358f2e794a24205e07634feda9095b7}\label{class_base_donnee_ac358f2e794a24205e07634feda9095b7}} 
+\mbox{\label{class_base_donnee_ac358f2e794a24205e07634feda9095b7}} 
 \index{BaseDonnee@{BaseDonnee}!BaseDonnee@{BaseDonnee}}
 \index{BaseDonnee@{BaseDonnee}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{BaseDonnee()}{BaseDonnee()}}
+\doxysubsubsection{BaseDonnee()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Base\+Donnee\+::\+Base\+Donnee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe. 
+
+Constructeur sans paramètre. \mbox{\label{class_base_donnee_ac358f2e794a24205e07634feda9095b7}} 
+\index{BaseDonnee@{BaseDonnee}!BaseDonnee@{BaseDonnee}}
+\index{BaseDonnee@{BaseDonnee}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{BaseDonnee()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily Base\+Donnee\+::\+Base\+Donnee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
@@ -44,20 +72,30 @@ Constructeur de la classe.
 Constructeur sans paramètre. 
 
 \doxysubsection{Member Function Documentation}
-\mbox{\Hypertarget{class_base_donnee_a6a7446d506c444d742f5a389d7fe5d28}\label{class_base_donnee_a6a7446d506c444d742f5a389d7fe5d28}} 
+\mbox{\label{class_base_donnee_a6a7446d506c444d742f5a389d7fe5d28}} 
 \index{BaseDonnee@{BaseDonnee}!afficher\_liste\_client@{afficher\_liste\_client}}
 \index{afficher\_liste\_client@{afficher\_liste\_client}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{afficher\_liste\_client()}{afficher\_liste\_client()}}
+\doxysubsubsection{afficher\_liste\_client()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily void Base\+Donnee\+::afficher\+\_\+liste\+\_\+client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
 
 Afficher la liste client. 
 
-Methode qui permet d\textquotesingle{}afficher la liste des clients appartenants à la base de donnée. \mbox{\Hypertarget{class_base_donnee_a80694ae25ab71cc1d683021fffa2dcf9}\label{class_base_donnee_a80694ae25ab71cc1d683021fffa2dcf9}} 
+Methode qui permet d\textquotesingle{}afficher la liste des clients appartenants à la base de donnée. \mbox{\label{class_base_donnee_a6a7446d506c444d742f5a389d7fe5d28}} 
+\index{BaseDonnee@{BaseDonnee}!afficher\_liste\_client@{afficher\_liste\_client}}
+\index{afficher\_liste\_client@{afficher\_liste\_client}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{afficher\_liste\_client()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Base\+Donnee\+::afficher\+\_\+liste\+\_\+client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Afficher la liste client. 
+
+Methode qui permet d\textquotesingle{}afficher la liste des clients appartenants à la base de donnée. \mbox{\label{class_base_donnee_a80694ae25ab71cc1d683021fffa2dcf9}} 
 \index{BaseDonnee@{BaseDonnee}!ajouter\_client@{ajouter\_client}}
 \index{ajouter\_client@{ajouter\_client}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{ajouter\_client()}{ajouter\_client()}}
+\doxysubsubsection{ajouter\_client()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily void Base\+Donnee\+::ajouter\+\_\+client (\begin{DoxyParamCaption}\item[{unsigned short int}]{num\+\_\+carte }\end{DoxyParamCaption})}
 
 
@@ -71,10 +109,27 @@ Methode qui permet d\textquotesingle{}ajouter un client à la base de données.
 {\em num\+\_\+carte} & \+: le numéro de la carte qui sera attribuée au client. \\
 \hline
 \end{DoxyParams}
-\mbox{\Hypertarget{class_base_donnee_a5810a5a7c7caa9455bdffdfc0deae688}\label{class_base_donnee_a5810a5a7c7caa9455bdffdfc0deae688}} 
+\mbox{\label{class_base_donnee_a80694ae25ab71cc1d683021fffa2dcf9}} 
+\index{BaseDonnee@{BaseDonnee}!ajouter\_client@{ajouter\_client}}
+\index{ajouter\_client@{ajouter\_client}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{ajouter\_client()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Base\+Donnee\+::ajouter\+\_\+client (\begin{DoxyParamCaption}\item[{unsigned short int}]{num\+\_\+carte }\end{DoxyParamCaption})}
+
+
+
+Ajouter un client. 
+
+Methode qui permet d\textquotesingle{}ajouter un client à la base de données.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+\_\+carte} & \+: le numéro de la carte qui sera attribuée au client. \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_base_donnee_a5810a5a7c7caa9455bdffdfc0deae688}} 
 \index{BaseDonnee@{BaseDonnee}!authentifier@{authentifier}}
 \index{authentifier@{authentifier}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{authentifier()}{authentifier()}}
+\doxysubsubsection{authentifier()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily int Base\+Donnee\+::authentifier (\begin{DoxyParamCaption}\item[{unsigned short int}]{num\+\_\+carte }\end{DoxyParamCaption})}
 
 
@@ -91,20 +146,60 @@ Methode qui permet d\textquotesingle{}authentifier un client appartenant à la b
 \begin{DoxyReturn}{Returns}
 1 si l\textquotesingle{}authentification réussit, 0 si elle échoue 
 \end{DoxyReturn}
-\mbox{\Hypertarget{class_base_donnee_a26e0027fc908dd4de6ecab55e4712f11}\label{class_base_donnee_a26e0027fc908dd4de6ecab55e4712f11}} 
+\mbox{\label{class_base_donnee_a5810a5a7c7caa9455bdffdfc0deae688}} 
+\index{BaseDonnee@{BaseDonnee}!authentifier@{authentifier}}
+\index{authentifier@{authentifier}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{authentifier()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int Base\+Donnee\+::authentifier (\begin{DoxyParamCaption}\item[{unsigned short int}]{num\+\_\+carte }\end{DoxyParamCaption})}
+
+
+
+Authentifier un client. 
+
+Methode qui permet d\textquotesingle{}authentifier un client appartenant à la base de données.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+\_\+carte} & \+: le numéro de la carte que possède le client \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 si l\textquotesingle{}authentification réussit, 0 si elle échoue 
+\end{DoxyReturn}
+\mbox{\label{class_base_donnee_afb066986867cf47dea895cdcb0c754b3}} 
+\index{BaseDonnee@{BaseDonnee}!ecriture\_clients\_fichier@{ecriture\_clients\_fichier}}
+\index{ecriture\_clients\_fichier@{ecriture\_clients\_fichier}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{ecriture\_clients\_fichier()}
+{\footnotesize\ttfamily void Base\+Donnee\+::ecriture\+\_\+clients\+\_\+fichier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ecrire la liste des clients. 
+
+Methode qui permet d\textquotesingle{}écrire la liste des clients dans un fichier .T\+XT \mbox{\label{class_base_donnee_a26e0027fc908dd4de6ecab55e4712f11}} 
 \index{BaseDonnee@{BaseDonnee}!init\_base\_client@{init\_base\_client}}
 \index{init\_base\_client@{init\_base\_client}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{init\_base\_client()}{init\_base\_client()}}
+\doxysubsubsection{init\_base\_client()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily void Base\+Donnee\+::init\+\_\+base\+\_\+client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
 
 
 Initialiser la base de donnée. 
 
-Methode qui permet d\textquotesingle{}initialiser la base de donnée au démarage de l\textquotesingle{}I\+HM. \mbox{\Hypertarget{class_base_donnee_a51ec0652855fb207a11f1e9f90b016c9}\label{class_base_donnee_a51ec0652855fb207a11f1e9f90b016c9}} 
+Methode qui permet d\textquotesingle{}initialiser la base de donnée au démarage de l\textquotesingle{}I\+HM. \mbox{\label{class_base_donnee_a26e0027fc908dd4de6ecab55e4712f11}} 
+\index{BaseDonnee@{BaseDonnee}!init\_base\_client@{init\_base\_client}}
+\index{init\_base\_client@{init\_base\_client}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{init\_base\_client()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Base\+Donnee\+::init\+\_\+base\+\_\+client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialiser la base de donnée. 
+
+Methode qui permet d\textquotesingle{}initialiser la base de donnée au démarage de l\textquotesingle{}I\+HM. \mbox{\label{class_base_donnee_a51ec0652855fb207a11f1e9f90b016c9}} 
 \index{BaseDonnee@{BaseDonnee}!re\_authentifier@{re\_authentifier}}
 \index{re\_authentifier@{re\_authentifier}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{re\_authentifier()}{re\_authentifier()}}
+\doxysubsubsection{re\_authentifier()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily int Base\+Donnee\+::re\+\_\+authentifier (\begin{DoxyParamCaption}\item[{unsigned short int}]{num\+\_\+carte }\end{DoxyParamCaption})}
 
 
@@ -121,10 +216,40 @@ Methode qui permet de ré-\/authentifier pour permettre la reprise du véhicule.
 \begin{DoxyReturn}{Returns}
 1 si l\textquotesingle{}authentification réussit, 0 si elle échoue 
 \end{DoxyReturn}
-\mbox{\Hypertarget{class_base_donnee_a1a456ee3be91774f888b9e624d943e44}\label{class_base_donnee_a1a456ee3be91774f888b9e624d943e44}} 
+\mbox{\label{class_base_donnee_a51ec0652855fb207a11f1e9f90b016c9}} 
+\index{BaseDonnee@{BaseDonnee}!re\_authentifier@{re\_authentifier}}
+\index{re\_authentifier@{re\_authentifier}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{re\_authentifier()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int Base\+Donnee\+::re\+\_\+authentifier (\begin{DoxyParamCaption}\item[{unsigned short int}]{num\+\_\+carte }\end{DoxyParamCaption})}
+
+
+
+Ré-\/\+Authentifier un client. 
+
+Methode qui permet de ré-\/authentifier pour permettre la reprise du véhicule.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+\_\+carte} & \+: le numéro de la carte que possède le client \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 si l\textquotesingle{}authentification réussit, 0 si elle échoue 
+\end{DoxyReturn}
+\mbox{\label{class_base_donnee_a1a456ee3be91774f888b9e624d943e44}} 
 \index{BaseDonnee@{BaseDonnee}!supprimer\_client@{supprimer\_client}}
 \index{supprimer\_client@{supprimer\_client}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{supprimer\_client()}{supprimer\_client()}}
+\doxysubsubsection{supprimer\_client()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Base\+Donnee\+::supprimer\+\_\+client (\begin{DoxyParamCaption}\item[{unsigned short int}]{num\+\_\+carte }\end{DoxyParamCaption})}
+
+
+
+Supprimer un client. 
+
+Methode qui permet de supprimer un client de la base de données. \mbox{\label{class_base_donnee_a1a456ee3be91774f888b9e624d943e44}} 
+\index{BaseDonnee@{BaseDonnee}!supprimer\_client@{supprimer\_client}}
+\index{supprimer\_client@{supprimer\_client}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{supprimer\_client()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily void Base\+Donnee\+::supprimer\+\_\+client (\begin{DoxyParamCaption}\item[{unsigned short int}]{num\+\_\+carte }\end{DoxyParamCaption})}
 
 
@@ -134,21 +259,32 @@ Supprimer un client.
 Methode qui permet de supprimer un client de la base de données. 
 
 \doxysubsection{Member Data Documentation}
-\mbox{\Hypertarget{class_base_donnee_ac1ebf1c94424c89f2d0ce3f1b2ce2ef9}\label{class_base_donnee_ac1ebf1c94424c89f2d0ce3f1b2ce2ef9}} 
+\mbox{\label{class_base_donnee_a9024913f8db8188f64589e728d617ea0}} 
 \index{BaseDonnee@{BaseDonnee}!base\_donnes@{base\_donnes}}
 \index{base\_donnes@{base\_donnes}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{base\_donnes}{base\_donnes}}
-{\footnotesize\ttfamily int Base\+Donnee\+::base\+\_\+donnes\mbox{[}100\mbox{]}}
+\doxysubsubsection{base\_donnes\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ Base\+Donnee\+::base\+\_\+donnes}
 
 
 \begin{DoxyParams}{Parameters}
 {\em base\+\_\+donnes} & \+: Variable de type entier. Tableau de données contenant tous les clients enrengistrés. \\
 \hline
 \end{DoxyParams}
-\mbox{\Hypertarget{class_base_donnee_a75090ffcfcbc1c1ac3f069188407e2cb}\label{class_base_donnee_a75090ffcfcbc1c1ac3f069188407e2cb}} 
+\mbox{\label{class_base_donnee_ac1ebf1c94424c89f2d0ce3f1b2ce2ef9}} 
+\index{BaseDonnee@{BaseDonnee}!base\_donnes@{base\_donnes}}
+\index{base\_donnes@{base\_donnes}!BaseDonnee@{BaseDonnee}}
+\doxysubsubsection{base\_donnes\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int Base\+Donnee\+::base\+\_\+donnes[100]}
+
+
+\begin{DoxyParams}{Parameters}
+{\em base\+\_\+donnes} & \+: Variable de type entier. Tableau de données contenant tous les clients enrengistrés. \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_base_donnee_a75090ffcfcbc1c1ac3f069188407e2cb}} 
 \index{BaseDonnee@{BaseDonnee}!dernier\_client@{dernier\_client}}
 \index{dernier\_client@{dernier\_client}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{dernier\_client}{dernier\_client}}
+\doxysubsubsection{dernier\_client}
 {\footnotesize\ttfamily int Base\+Donnee\+::dernier\+\_\+client}
 
 
@@ -156,10 +292,10 @@ Methode qui permet de supprimer un client de la base de données.
 {\em dernier\+\_\+client} & \+: Entier permettant de mémoriser le dernier client ayant utilisé le système de recharge. \\
 \hline
 \end{DoxyParams}
-\mbox{\Hypertarget{class_base_donnee_ae4081ca059458539e3acacfe3b80e992}\label{class_base_donnee_ae4081ca059458539e3acacfe3b80e992}} 
+\mbox{\label{class_base_donnee_ae4081ca059458539e3acacfe3b80e992}} 
 \index{BaseDonnee@{BaseDonnee}!i@{i}}
 \index{i@{i}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{i}{i}}
+\doxysubsubsection{i}
 {\footnotesize\ttfamily int Base\+Donnee\+::i}
 
 
@@ -167,10 +303,10 @@ Methode qui permet de supprimer un client de la base de données.
 {\em i} & \+: Entier servant de variable d\textquotesingle{}incrémentation. \\
 \hline
 \end{DoxyParams}
-\mbox{\Hypertarget{class_base_donnee_a0289ab7f4c675e0a31f32c9ea102bba8}\label{class_base_donnee_a0289ab7f4c675e0a31f32c9ea102bba8}} 
+\mbox{\label{class_base_donnee_a0289ab7f4c675e0a31f32c9ea102bba8}} 
 \index{BaseDonnee@{BaseDonnee}!nb\_clients@{nb\_clients}}
 \index{nb\_clients@{nb\_clients}!BaseDonnee@{BaseDonnee}}
-\doxysubsubsection{\texorpdfstring{nb\_clients}{nb\_clients}}
+\doxysubsubsection{nb\_clients}
 {\footnotesize\ttfamily int Base\+Donnee\+::nb\+\_\+clients}
 
 
@@ -182,5 +318,7 @@ Methode qui permet de supprimer un client de la base de données.
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-C\+:/\+Users/cyprien quivet/\+Desktop/\+G\+I\+T/\+M\+A\+S\+T\+E\+R\+\_\+\+S\+M\+E\+\_\+\+G\+I\+T/\+Realisation\+Systeme/projet\+\_\+uml\+\_\+c++/\mbox{\hyperlink{base__donnee_8h}{base\+\_\+donnee.\+h}}\item 
-C\+:/\+Users/cyprien quivet/\+Desktop/\+G\+I\+T/\+M\+A\+S\+T\+E\+R\+\_\+\+S\+M\+E\+\_\+\+G\+I\+T/\+Realisation\+Systeme/projet\+\_\+uml\+\_\+c++/base\+\_\+donnee.\+cpp\end{DoxyCompactItemize}
+\textbf{ base\+\_\+donnee.\+h}\item 
+base\+\_\+donneeold.\+h\item 
+base\+\_\+donnee.\+cpp\item 
+base\+\_\+donneeold.\+cpp\end{DoxyCompactItemize}
