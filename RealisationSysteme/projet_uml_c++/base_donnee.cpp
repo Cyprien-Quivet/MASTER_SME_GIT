@@ -86,7 +86,8 @@ void BaseDonnee::afficher_liste_client()
 
 void BaseDonnee::ecriture_clients_fichier()
 {
-	std::ofstream fichier("data_clients.txt".c_str());
+	 std::string const dataCLIENTS("data_clients.txt");
+	std::ofstream fichier(dataCLIENTS.c_str());
 	if(fichier)  //On teste si tout est OK
 {
 
