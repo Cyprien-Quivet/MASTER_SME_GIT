@@ -1,8 +1,8 @@
 #ifndef BASEDONNEE_H
 #define BASEDONNEE_H
 #include <iostream>
-//#include "donnees_borne.h"
-//#include "memoire_borne.h"
+#include <vector>
+
 
 /*!
 * \file base_donnee.h
@@ -12,12 +12,18 @@
 
 class BaseDonnee
 {
+
+
+
+
+
   public : 
 
 /*!
 * \param base_donnes : Variable de type entier. Tableau de données contenant tous les clients enrengistrés.
 */
-    int base_donnes[100];
+    //int base_donnes[100];
+     std::vector <int> base_donnes;
 /*!
 * \param i : Entier servant de variable d'incrémentation.
 */
